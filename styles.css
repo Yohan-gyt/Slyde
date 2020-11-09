@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+
+    font-family: Poppins;
+    background-image: url("img/mobile/landing-mobile-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,p{
+    color: white;
+}
+
+.slyde{
+    color: #FEE10B;
+    text-transform: uppercase;
+}
+
+.logo-slyde{
+    height: 3.8rem;
+}
+
+.logo-reseaux{
+    height: 2rem;
+}
