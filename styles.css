@@ -5,72 +5,116 @@
     margin: 0;
 }
 
-* {
-    color: white;
-    font-family: Poppins, sans-serif;
-}
-
 body {
     background-color: #292828;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+::selection {
+    color: black;
+    background-color: #FEE10B;
+}
+
+div {
+    /* border: red 1px solid; */
 }
 
 /* SECTION 1 */
 
 #s1 {
     height: 100vh;
-    font-family: Poppins;
     background-image: url("img/mobile/landing-mobile-4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
 }
 
+/* logo */
 .logo-slyde {
-    height: 3.8rem;
+    height: 2.875rem;
+    margin-left: 2vw;
+    margin-top: 2vw;
 }
 
-#texte-intro {
-    display: flex;
-    flex-direction: column;
+/* textes */
+.textes {
+    margin: auto;
+    margin-top: 114px;
+    width: 90vw;
 }
 
 .slyde {
     color: #FEE10B;
     text-transform: uppercase;
     font-family: Inter, sans-serif;
-    font-size: 2rem;
+    font-size: 1.563rem;
+    margin-bottom: 4px;
 }
 
-.textes {
+p {
     font-weight: bold;
-    font-size: 2rem;
-    margin: auto;
+    font-size: 1.563rem;
+    line-height: 1.35;
 }
 
 .slogan {
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.938rem;
+    margin-bottom: 35px;
+    margin-top: 4px;
 }
 
+/* formulaire */
 .form {
     text-align: center;
 }
 
 input {
+    border: none;
     border-radius: 100px;
     color: black;
+    font-size: 0.938rem;
+    width: 100%;
+    height: 2.375rem;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #707070;
+    opacity: 50%;
 }
 
 button {
+    border: none;
     display: block;
     background-color: #FEE10B;
     color: black;
     border-radius: 100px;
     margin: auto;
+    font-size: 0.938rem;
+    width: 9.875rem;
+    height: 2.375rem;
+}
+
+/* liens réseaux */
+.logos {
+    padding-left: 5vw;
+    position: absolute;
+    top: 90vh;
 }
 
 .logo-reseaux {
-    height: 2rem;
+    height: 1.5rem;
+}
+
+.insta {
+    margin-right: 30px;
 }
 
 /* SECTION 2, 3, 4 */
@@ -85,7 +129,6 @@ button {
 #s3 {
     background-image: url("img/studio-jaune.png");
     background-repeat: no-repeat;
-    /* background-size: auto; */
 }
 
 .jaune {
