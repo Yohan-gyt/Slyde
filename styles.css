@@ -17,7 +17,7 @@ body {
 }
 
 div {
-    /* border: red 1px solid; */
+    /* border: #FEE10B 1px solid; */
 }
 
 /* SECTION 1 */
@@ -81,7 +81,8 @@ input {
     margin-bottom: 25px;
 }
 
-input:focus {
+input:focus,
+button:focus {
     outline: none;
 }
 
@@ -95,11 +96,12 @@ button {
     display: block;
     background-color: #FEE10B;
     color: black;
-    border-radius: 100px;
+    border-radius: 30px;
     margin: auto;
     font-size: 0.938rem;
     width: 9.875rem;
     height: 2.375rem;
+    cursor: pointer;
 }
 
 /* liens réseaux */
@@ -131,6 +133,10 @@ button {
     background-repeat: no-repeat;
 }
 
+.phrase {
+    margin: auto;
+}
+
 .jaune {
     color: #FEE10B;
 }
@@ -146,17 +152,107 @@ button {
     height: 59.5vh;
 }
 
-/* SECTION 6 */
-
-.logo-complet {
-    width: 94px;
-    height: 40px;
+.rejoindre {
+    text-align: center;
 }
+
+.trait {
+    background-color: white;
+    width: 2px;
+    height: 3.438rem;
+    margin: auto;
+}
+
+.form-bas {
+    border-radius: 7px;
+    height: 2.563rem;
+}
+
+.button-bas {
+    border-radius: 7px;
+    height: 1.625rem;
+    width: 100%;
+}
+
+.conditions p {
+    font-size: 0.625rem;
+    font-weight: normal;
+    text-align: center;
+    opacity: 60%;
+}
+
+/* SECTION 6 */
 
 #s6 {
     height: 56.5vh;
 }
 
-hr {
-    width: 323px;
+.logo-complet {
+    height: 2.5rem;
+}
+
+.slogan2 {
+    font-size: 0.813rem;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos-bottom {
+    display: inline-block;
+}
+
+.logos-bottom img {
+    height: 1.188rem;
+}
+
+.contact {
+    display: inline-block;
+    font-size: 0.813rem;
+    opacity: 70%;
+}
+
+.contact p {
+    font-size: 0.813rem;
+    font-weight: 500;
+}
+
+.contact a {
+    font-size: 0.813rem;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #FEE10B;
+    transition: ease-in-out 0.2s;
+}
+
+.separateur {
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    opacity: 50%;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 300;
+    opacity: 50%;
+}
+
+.logo-slyde-bottom {
+    height: 2.25rem;
+    margin: auto;
 }
