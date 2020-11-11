@@ -5,28 +5,115 @@
     margin: 0;
 }
 
-section {
-    height: 100vh;
+* {
+    color: white;
+    font-family: Poppins, sans-serif;
+}
 
+body {
+    background-color: #292828;
+}
+
+/* SECTION 1 */
+
+#s1 {
+    height: 100vh;
     font-family: Poppins;
     background-image: url("img/mobile/landing-mobile-4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right bottom;
 }
 
-h1,p{
-    color: white;
-}
-
-.slyde{
-    color: #FEE10B;
-    text-transform: uppercase;
-}
-
-.logo-slyde{
+.logo-slyde {
     height: 3.8rem;
 }
 
-.logo-reseaux{
+#texte-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.slyde {
+    color: #FEE10B;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+}
+
+.textes {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.slogan {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.form {
+    text-align: center;
+}
+
+input {
+    border-radius: 100px;
+    color: black;
+}
+
+button {
+    display: block;
+    background-color: #FEE10B;
+    color: black;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.logo-reseaux {
     height: 2rem;
+}
+
+/* SECTION 2, 3, 4 */
+
+#s2,
+#s3,
+#s4 {
+    height: 78vh;
+    display: flex;
+}
+
+#s3 {
+    background-image: url("img/studio-jaune.png");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+}
+
+.jaune {
+    color: #FEE10B;
+}
+
+.noir {
+    color: black;
+}
+
+/* SECTION 5 */
+
+#s5 {
+    background-color: #1C1B1B;
+    height: 59.5vh;
+}
+
+/* SECTION 6 */
+
+.logo-complet {
+    width: 94px;
+    height: 40px;
+}
+
+#s6 {
+    height: 56.5vh;
+}
+
+hr {
+    width: 323px;
 }
