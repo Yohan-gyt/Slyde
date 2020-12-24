@@ -5,10 +5,14 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #292828;
     font-family: Poppins, sans-serif;
-    color: white;
+    color: #F5F5F5;
 }
 
 ::selection {
@@ -16,15 +20,11 @@ body {
     background-color: #FEE10B;
 }
 
-div {
-    /* border: #FEE10B 1px solid; */
-}
-
 /* SECTION 1 */
 
 #s1 {
     height: 100vh;
-    background-image: url("img/mobile/landing-mobile-4.png");
+    background-image: url("../img/mobile/landing-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -65,6 +65,29 @@ p {
     margin-top: 4px;
 }
 
+.link-s6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #FEE10B;
+    color: black;
+    border-radius: 30px;
+    font-size: 0.938rem;
+    width: 9.875rem;
+    height: 2.375rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* TROUVER UN HOVER QUI REND BIEN !!! */
+.link-s6:hover {
+    background-color: #1C1B1B;
+    color: #F5F5F5;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 /* liens réseaux */
 .logos {
     padding-left: 5vw;
@@ -80,15 +103,19 @@ p {
     margin-right: 1.875rem;
 }
 
+.lien-insta,
+.lien-linkedin {
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .lien-insta:hover {
-    content: url(img/logo/instagram-jaune.png);
-    height: 1.5rem;
-    margin-right: 1.875rem;
+    filter: brightness(60%);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .lien-linkedin:hover {
-    content: url(img/logo/linkedin-jaune.png);
-    height: 1.5rem;
+    filter: brightness(60%);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #s2,
@@ -99,7 +126,7 @@ p {
 }
 
 #s3 {
-    background-image: url("img/collabore-3.png");
+    background-image: url("../img/backgrounds/collabore.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -134,7 +161,7 @@ p {
 }
 
 .trait {
-    background-color: white;
+    background-color: #F5F5F5;
     width: 2px;
     height: 3.438rem;
     margin: auto;
@@ -179,9 +206,6 @@ button {
     width: 9.875rem;
     height: 2.375rem;
     cursor: pointer;
-}
-
-.button-bas {
     border-radius: 5px;
     height: 1.625rem;
     width: 34vw;
@@ -235,17 +259,6 @@ button {
     height: 1.188rem;
 }
 
-.lien-insta-bas:hover {
-    content: url(img/logo/instagram-jaune.png);
-    height: 1.188rem;
-    margin-right: 1.875rem;
-}
-
-.lien-linkedin-bas:hover {
-    content: url(img/logo/linkedin-jaune.png);
-    height: 1.188rem
-}
-
 .contact {
     display: inline-block;
     opacity: 70%;
@@ -259,7 +272,7 @@ button {
 .contact a {
     font-size: 0.813rem;
     font-weight: 300;
-    color: white;
+    color: #F5F5F5;
     text-decoration: none;
 }
 
@@ -269,7 +282,7 @@ button {
 }
 
 .separateur {
-    background-color: white;
+    background-color: #F5F5F5;
     width: 100%;
     height: 1px;
     opacity: 50%;
