@@ -16,7 +16,7 @@ body {
 }
 
 ::selection {
-    color: black;
+    color: #121212;
     background-color: #FEE10B;
 }
 
@@ -24,7 +24,7 @@ body {
 
 #s1 {
     height: 100vh;
-    background-image: url("../img/mobile/landing-mobile.jpg");
+    background-image: url("../img/background/landing-page-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
@@ -32,7 +32,7 @@ body {
 
 /* logo */
 .logo-slyde {
-    height: 2.875rem;
+    height: 4.5rem;
     margin-left: 2vw;
     margin-top: 2vw;
 }
@@ -40,8 +40,9 @@ body {
 /* textes */
 .textes {
     margin: auto;
-    margin-top: 114px;
+    margin-top: 8vh;
     width: 90vw;
+    margin-left: 6vw;
 }
 
 .slyde {
@@ -59,7 +60,7 @@ p {
 }
 
 .slogan {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 0.938rem;
     margin-bottom: 15px;
     margin-top: 4px;
@@ -71,7 +72,7 @@ p {
     justify-content: center;
     text-align: center;
     background-color: #FEE10B;
-    color: black;
+    color: #121212;
     border-radius: 30px;
     font-size: 0.938rem;
     width: 9.875rem;
@@ -83,8 +84,7 @@ p {
 
 /* TROUVER UN HOVER QUI REND BIEN !!! */
 .link-s6:hover {
-    background-color: #1C1B1B;
-    color: #F5F5F5;
+    background-color: #EACD1C;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -109,24 +109,24 @@ p {
 }
 
 .lien-insta:hover {
-    filter: brightness(60%);
+    filter: brightness(70%);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .lien-linkedin:hover {
-    filter: brightness(60%);
+    filter: brightness(70%);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 #s2,
 #s3,
 #s4 {
-    height: 78vh;
+    min-height: 78vh;
     display: flex;
 }
 
 #s3 {
-    background-image: url("../img/backgrounds/collabore.jpg");
+    background-image: url("../img/background/collabore.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -140,14 +140,14 @@ p {
 }
 
 .noir {
-    color: black;
+    color: #121212;
 }
 
 /* SECTION 5 */
 
 #s5 {
     background-color: #1C1B1B;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
 }
@@ -158,6 +158,7 @@ p {
 
 .rejoindre {
     text-align: center;
+    margin-top: 20px;
 }
 
 .trait {
@@ -177,7 +178,7 @@ p {
 input {
     border: none;
     border-radius: 5px;
-    color: black;
+    color: #121212;
     font-size: 0.938rem;
     height: 2.563rem;
     min-width: 19.063rem;
@@ -200,7 +201,7 @@ button {
     border: none;
     display: block;
     background-color: #FEE10B;
-    color: black;
+    color: #121212;
     border-radius: 30px;
     font-size: 0.938rem;
     width: 9.875rem;
@@ -221,6 +222,7 @@ button {
     margin-top: 1rem;
     width: 34vw;
     min-width: 19.063rem;
+    margin-bottom: 20px;
 }
 
 /* SECTION 6 */
@@ -228,12 +230,13 @@ button {
 #s6 {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .logo-complet {
     height: 2.5rem;
     margin-bottom: 0.5rem;
+    margin-top: 20px;
 }
 
 .slogan2 {
@@ -308,24 +311,38 @@ button {
 .logo-slyde-bottom {
     height: 3.5rem;
     margin: auto;
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 1920px) {
+.desc {
+    display: none;
+}
 
-    #s2,
-    #s3,
-    #s4 {
-        height: 100vh;
-        display: flex;
+@media screen and (min-width: 768px) {
+    #s1 {
+        background-image: url("../img/background/landing-page.jpg");
+        background-position: bottom;
     }
-}
 
-@media screen and (min-width: 1440px) {
+    .textes {
+        margin-top: 114px;
+    }
 
-    #s2,
-    #s3,
-    #s4 {
-        height: 100vh;
-        display: flex;
+    .phrase {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .phrase p {
+        font-size: 3rem;
+    }
+
+    .phrase .desc {
+        display: inline;
+        font-weight: 300;
+        font-size: 0.938rem;
     }
 }
