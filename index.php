@@ -40,13 +40,13 @@
             <img class="logo" src="assets/img/logos/logo.png">
         </div>
         <div class="text">
-            <h1 class="slyde">Slyde</h1>
+            <h1 class="slyde">SLYDE</h1>
             <div class="slogan-1">
                 La première plateforme
                 <br>de collaboration musicale.
             </div>
             <div class="slogan-2">Créer, collaborer, partager.</div>
-            <a href="#s5" class="button-s5">En savoir plus</a>
+            <a href="#newsletter" class="button-s5">En savoir plus</a>
         </div>
 
         <div class="icons">
@@ -59,7 +59,7 @@
         </div>
     </section>
     <section id="s2">
-        <div class="left">
+        <div class="left-1">
             <p class="hook">
                 <span class="yellow">Crée</span> et <span class="yellow">trouve</span> des projets
                 <br>
@@ -86,7 +86,7 @@
         </div>
     </section>
     <section id="s4">
-        <div class="left">
+        <div class="left-2">
             <p class="hook">
                 <span class="yellow">Partage</span> tes créations et
                 <br>
@@ -99,16 +99,16 @@
             </p>
         </div>
     </section>
-    <section id="s5">
+    <section id="newsletter">
         <div class="wrapper-s5">
             <div class="join">
                 <p>Rejoins-nous <br> dès maintenant !</p>
             </div>
             <div class="line"></div>
-            <div class="form">
-                <input type="text" id="email" placeholder="Email">
+            <form action="assets/php/newsletter.php" method="POST" class="form-landing-page">
+                <input type="text" name="email" placeholder="Email" required>
                 <button type="submit">Valider</button>
-            </div>
+            </form>
             <div class="conditions">
                 <p>En cliquant sur "Valider", vous acceptez que Slyde mémorise et utilise votre adresse email dans le
                     but de

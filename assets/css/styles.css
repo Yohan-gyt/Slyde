@@ -54,7 +54,6 @@ a {
 .slyde {
     font-size: 2.8rem;
     color: #FEE10B;
-    text-transform: uppercase;
     font-family: Inter, sans-serif;
     margin-bottom: 5px;
 }
@@ -101,6 +100,7 @@ a {
 .icons {
     margin-left: 30px;
     bottom: 30px;
+    /* top: 90vh; */
     position: absolute;
 }
 
@@ -132,23 +132,25 @@ a {
     background-image: url(../img/background/create.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
 }
 
 #s3 {
     background-image: url(../img/background/collabore.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 #s4 {
-    /* background-image: url(../img/background/collabore.png); */
+    background-image: url(../img/background/paperplane.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom right;
 }
 
-.left,
+.left-1,
+.left-2,
 .right {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -156,6 +158,10 @@ a {
 
 .left {
     margin-bottom: 150px;
+}
+
+.left-2 {
+    margin-bottom: 250px;
 }
 
 .right {
@@ -183,7 +189,7 @@ a {
 }
 
 /* SECTION 5 */
-#s5 {
+#newsletter {
     min-height: 80vh;
     background-color: #1C1B1B;
     display: flex;
@@ -212,7 +218,7 @@ a {
     margin-bottom: 40px;
 }
 
-.form {
+.form-landing-page {
     text-align: center;
 }
 
@@ -396,7 +402,7 @@ footer {
     }
 
     .icons {
-        bottom: 15px;
+        top: 90vh;
     }
 
     .link-icon {
@@ -412,13 +418,17 @@ footer {
 
     #s3 {
         background-image: url(../img/background/collabore-mobile.png);
+        background-position: center;
     }
 
     #s4 {
-        /* background-image: url(../img/background/collabore-mobile.png); */
+        background-image: url(../img/background/paperplane-mobile.png);
+        background-position: center;
+
     }
 
-    .left,
+    .left-1,
+    .left-2,
     .right {
         margin-bottom: 0;
         text-align: left;
@@ -427,6 +437,7 @@ footer {
     .hook {
         font-size: 2rem;
         margin-bottom: 15px;
+        overflow-wrap: normal;
     }
 
     .desc {
@@ -462,7 +473,6 @@ footer {
     }
 
     /* FOOTER */
-
     .wrapper-logo {
         margin-bottom: 15px;
     }
