@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background-color: #292828;
+    /* background-color: #292828; */
+    background-color: #1C1B1B;
     font-family: Poppins, sans-serif;
     color: #F5F5F5;
     font-weight: 300;
@@ -22,6 +23,7 @@ body {
 }
 
 a {
+    color: white;
     text-decoration: none;
 }
 
@@ -363,6 +365,149 @@ footer {
     margin: auto;
 }
 
+/* SIGN IN PAGE */
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-right {
+    width: 69%;
+    margin: auto;
+}
+
+.wrapper-right h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-family: Anton;
+    font-size: 3.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.header-signin{
+    /* border: red 1px solid; */
+    display: flex;
+    width: 59%;
+    margin-left: 1%;
+    margin-right: 1%;
+    position: absolute;
+    top: 1rem;
+}
+
+
+.header-signin p{
+    position: absolute;
+    right: 1rem;
+}
+
+#bg-left{
+    background-image: url("../img/background/courbes.png");
+    height: 100vh;
+    width: 40%;
+
+    background-color: #292828;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#signin,
+#signup{
+    display: flex;
+
+    height: 100vh;
+    width: 60%;
+}
+
+#signin input,
+#signup input{
+    background-color: #292828;
+    border-radius: 0;
+    color: white;
+}
+
+::placeholder {
+    color: #ffffffd5;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+}
+
+hr{
+    width: 5rem;
+    border-width: 0;
+    height: 2px;
+    background: #FEE10B;
+}
+
+.form-singin{
+    margin-top: 2rem;
+}
+
+.forgot-pwd{
+    float: right;
+    margin-bottom: 2rem;
+}
+
+/* SIGN UP PAGE */
+.numbers{
+    /* display: flex; */
+    /* align-self: flex-end; */
+}
+
+input:focus {
+    border-left: #EACD1C 5px solid;
+}
+
+input[type="checkbox"] {
+    font-size: 1rem;
+    height: 1rem;
+    width: 2rem;
+    cursor: pointer;
+
+}
+
+input:checked{
+    background-color: yellow;
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+.form-signup input:first-child,
+.form-signup input:nth-child(2),
+.form-signup input:nth-child(6),
+.form-signup input:last-child {
+    width: 47%;
+
+}
+.form-signup input:first-child,
+.form-signup input:nth-child(6){
+    margin-right: 5.2%;
+}
+
+.nextbutton{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 60%;
+    height: 3rem;
+    border-radius: 0;
+    
+}
+
 @media screen and (max-width: 900px) {
 
     /* FOOTER */
@@ -376,6 +521,19 @@ footer {
 
     .wrapper-logo {
         flex-direction: column-reverse;
+    }
+
+    /* SIGN IN PAGE */
+    .title{
+        font-size: 2.5rem; 
+    }
+
+    .header-signin p {
+        max-width: 10rem;
+    }
+
+    .header-signin a{
+        max-width: 8rem;
     }
 }
 
