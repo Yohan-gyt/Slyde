@@ -455,7 +455,7 @@ footer {
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.header-signin {
+.header-sign {
     display: flex;
     width: 60%;
     padding-left: 30px;
@@ -465,7 +465,7 @@ footer {
     user-select: none;
 }
 
-.header-signin p {
+.header-sign p {
     position: absolute;
     right: 30px;
 }
@@ -664,6 +664,14 @@ button:hover,
 }
 
 /* -------------------- RESPONSIVE -------------------- */
+@media screen and (max-width: 1150px) {
+
+    /* CONNEXION */
+    .title {
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     /* ---------- INDEX ---------- */

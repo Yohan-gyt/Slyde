@@ -44,7 +44,7 @@
         </section>
 
         <section id="signup">
-            <nav class="header-signin">
+            <nav class="header-sign">
                 <a href="index.html" class="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121" class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
