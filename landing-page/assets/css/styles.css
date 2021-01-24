@@ -26,8 +26,6 @@ body {
     background-color: #FEE10B;
 }
 
-/* -------------------- INDEX.HTML -------------------- */
-
 a {
     text-decoration: none;
     color: #F5F5F5;
@@ -59,53 +57,11 @@ a:hover {
 
 .logo {
     position: absolute;
-    top: 25px;
+    top: 0;
     height: 7rem;
     margin-left: 10px;
+    margin-top: 25px;
     user-select: none;
-}
-
-.sign-btn {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    user-select: none;
-}
-
-.sign-btn>* {
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.signin-btn a {
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.signin-btn a:hover {
-    color: #FEE10B;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.signup-btn a {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #FEE10B;
-    color: #121212;
-    width: 14rem;
-    height: 2.5rem;
-    border-radius: 5px;
-    margin-left: 30px;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.signup-btn a:hover,
-.button-s2:hover,
-.signup-btn-2:hover {
-    background-color: #EACD1C;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .slyde {
@@ -133,13 +89,6 @@ a:hover {
 }
 
 .button-s2 {
-    border-radius: 30px;
-    width: 10rem;
-    user-select: none;
-}
-
-.button-s2,
-.signup-btn-2 {
     font-size: 1rem;
     font-weight: 500;
     display: flex;
@@ -148,8 +97,16 @@ a:hover {
     text-align: center;
     background-color: #FEE10B;
     color: #121212;
+    border-radius: 30px;
+    width: 10rem;
     height: 2.5rem;
     text-decoration: none;
+    user-select: none;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button-s2:hover {
+    background-color: #EACD1C;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -249,7 +206,7 @@ a:hover {
 }
 
 /* SECTION 5 */
-#s5 {
+#newsletter {
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -257,6 +214,7 @@ a:hover {
 }
 
 .wrapper-s5 {
+    max-width: 32rem;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -278,12 +236,88 @@ a:hover {
     margin-bottom: 40px;
 }
 
-.signup-btn-2 {
+input {
+    border: none;
     border-radius: 5px;
-    margin: auto;
+    font-size: 1rem;
+    height: 3rem;
     width: 100%;
-    max-width: 30rem;
+    margin-bottom: 20px;
+    padding-left: 15px;
     user-select: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #707070;
+    opacity: 50%;
+}
+
+::-moz-placeholder {
+    color: #707070;
+    opacity: 50%;
+}
+
+:-ms-input-placeholder {
+    color: #707070;
+    opacity: 50%;
+}
+
+::-ms-input-placeholder {
+    color: #707070;
+    opacity: 50%;
+}
+
+::placeholder {
+    color: #707070;
+    opacity: 50%;
+}
+
+button {
+    font-size: 1.2rem;
+    border: none;
+    display: block;
+    background-color: #FEE10B;
+    color: #121212;
+    border-radius: 30px;
+    width: 100%;
+    height: 2.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    margin: auto;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+button:hover {
+    background-color: #EACD1C;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.response {
+    font-size: 1rem;
+    opacity: 70%;
+}
+
+.response a {
+    opacity: 70%;
+}
+
+.response a:hover {
+    color: #FEE10B;
+    opacity: 100%;
+}
+
+.conditions {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 60%;
+    width: 100%;
 }
 
 /* SECTION 6 */
@@ -332,24 +366,19 @@ footer {
     user-select: none;
 }
 
-.info p {
+.contact p {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.info a {
+.contact a {
     font-size: 1rem;
     opacity: 70%;
 }
 
-.info a:hover {
+.contact a:hover {
     color: #FEE10B;
     opacity: 100%;
-}
-
-.cgu {
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .copyright {
@@ -386,287 +415,8 @@ footer {
     user-select: none;
 }
 
-/* -------------------- CONNEXION -------------------- */
-
-/* LEFT SECTION */
-.wrapper-sign {
-    display: flex;
-    justify-content: center;
-}
-
-#bg-left {
-    background-image: url("../img/background/courbes.png");
-    height: 100vh;
-    width: 40%;
-    background-color: #292828;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.title {
-    font-family: Anton, sans-serif;
-    font-size: 3.8rem;
-    font-weight: 300;
-    user-select: none;
-}
-
-/* HEADER */
-#signin,
-#signup {
-    display: flex;
-    height: 100vh;
-    width: 60%;
-}
-
-.back-home {
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    font-size: 1.1rem;
-    display: flex;
-    justify-content: center;
-}
-
-.back-home:hover {
-    color: #FEE10B;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.arrow {
-    width: 2rem;
-    transform: translateY(1.5px);
-}
-
-.back-text {
-    margin: auto;
-    margin-left: 15px;
-}
-
-.link-sign {
-    color: #FEE10B;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.link-sign:hover {
-    color: #EACD1C;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.header-signin {
-    display: flex;
-    width: 60%;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: absolute;
-    top: 30px;
-    user-select: none;
-}
-
-.header-signin p {
-    position: absolute;
-    right: 30px;
-}
-
-.wrapper-right {
-    width: 70%;
-    margin: auto;
-}
-
-.wrapper-right h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 1.7rem;
-    margin-bottom: 30px;
-}
-
-hr {
-    width: 5rem;
-    border-width: 0;
-    height: 3px;
-    background: #FEE10B;
-}
-
-#signin input,
-#signup input {
-    background-color: #292828;
-    color: #F5F5F5;
-}
-
-input {
-    user-select: none;
-    border: none;
-    font-size: 1rem;
-    height: 3rem;
-    width: 100%;
-    margin-bottom: 20px;
-    padding-left: 15px;
-}
-
-input:focus {
-    border-left: #FEE10B 5px solid;
-    outline: none;
-}
-
-input[name="password"] {
-    margin-bottom: 10px;
-}
-
-::placeholder {
-    color: #F5F5F5;
-    opacity: 60%;
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-.form-singin {
-    margin-top: 35px;
-}
-
-.forgot-pwd {
-    float: right;
-    margin-bottom: 30px;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    user-select: none;
-}
-
-.forgot-pwd:hover {
-    color: #FEE10B;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-button {
-    font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    border: none;
-    display: block;
-    color: #121212;
-    background-color: #FEE10B;
-    width: 100%;
-    height: 3rem;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: auto;
-    outline: none;
-    user-select: none;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-button:hover,
-.nextbutton {
-    background-color: #EACD1C;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-/* -------------------- INSCRIPTION -------------------- */
-.numbers {
-    position: absolute;
-    bottom: 30px;
-    width: 40%;
-    user-select: none;
-}
-
-.form-signup input {
-    margin-bottom: 30px;
-}
-
-.separate {
-    display: flex;
-    justify-content: space-around;
-}
-
-.form-signup input[name="lastname"],
-.form-signup input[name="name"],
-.form-signup input[name="pwd"] {
-    width: 50%;
-}
-
-.form-signup input:first-child,
-.form-signup input:nth-child(6) {
-    margin-right: 30px;
-}
-
-.conditions {
-    display: block;
-    position: relative;
-    padding-left: 2rem;
-    margin-bottom: 20px;
-    cursor: pointer;
-    user-select: none;
-}
-
-.conditions input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-.checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1.3rem;
-    height: 1.3rem;
-    border: 1px solid rgba(245, 245, 245, 0.5);
-    border-radius: 3px;
-    background-color: transparent;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.conditions:hover input~.checkmark {
-    background-color: rgba(245, 245, 245, 0.1);
-}
-
-.conditions input:checked~.checkmark {
-    background-color: #EACD1C;
-    border: none;
-}
-
-.checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-.conditions input:checked~.checkmark:after {
-    display: block;
-}
-
-.conditions .checkmark:after {
-    left: 7px;
-    top: 2px;
-    width: 8px;
-    height: 12px;
-    border: solid #F5F5F5;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-}
-
-.nextbutton {
-    position: absolute;
-    bottom: 0;
-    width: 60%;
-    height: 3rem;
-    border-radius: 0;
-    color: #121212;
-    background-color: #FEE10B;
-    font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    outline: none;
-    cursor: pointer;
-}
-
-/* -------------------- RESPONSIVE -------------------- */
 @media screen and (max-width: 900px) {
 
-    /* ---------- INDEX ---------- */
     /* FOOTER */
     .copyright {
         display: none;
@@ -683,7 +433,6 @@ button:hover,
 
 @media screen and (max-width: 767px) {
 
-    /* ---------- INDEX ---------- */
     /* SECTION 1 */
     #s1 {
         background-image: url("../img/background/landing-page-mobile.png");
@@ -761,8 +510,16 @@ button:hover,
         margin-bottom: 35px;
     }
 
-    .signup-btn-2 {
-        max-width: 20rem;
+    input {
+        height: 2.5rem;
+    }
+
+    button {
+        height: 2rem;
+    }
+
+    .conditions {
+        font-size: 0.7rem;
     }
 
     /* FOOTER */
@@ -784,26 +541,5 @@ button:hover,
 
     .icons-footer {
         margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    /* ---------- INDEX ---------- */
-    /* SECTION 1 */
-    .sign-btn {
-        top: 50px;
-    }
-
-    .sign-btn>* {
-        display: block;
-    }
-
-    .signin-btn {
-        text-align: right;
-    }
-
-    .wrapper-signup-btn {
-        display: none;
     }
 }
