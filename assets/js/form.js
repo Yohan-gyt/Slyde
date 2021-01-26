@@ -14,9 +14,14 @@ function showTab(n) {
 
     document.getElementById("t1").style.display = "block";
     document.getElementById("t2").style.display = "none";
+    document.getElementById("t3").style.display = "none";
+    document.getElementById("t4").style.display = "none";
 
     document.getElementById("n1").style.display = "block";
     document.getElementById("n2").style.display = "none";
+    document.getElementById("n3").style.display = "none";
+    document.getElementById("n4").style.display = "none";
+
   } else if (n == 1) {
     document.getElementById("back-home").style.display = "none";
     document.getElementById("prevBtn").style.display = "block";
@@ -24,18 +29,47 @@ function showTab(n) {
 
     document.getElementById("t1").style.display = "none";
     document.getElementById("t2").style.display = "block";
+    document.getElementById("t3").style.display = "none";
+    document.getElementById("t4").style.display = "none";
 
     document.getElementById("n1").style.display = "none";
     document.getElementById("n2").style.display = "block";
+    document.getElementById("n3").style.display = "none";
+    document.getElementById("n4").style.display = "none";
+  } 
+  else if (n == 2){
+    document.getElementById("prevBtn").style.display = "none";
+    // document.getElementById("member").style.display = "block";
+    
+    document.getElementById("t1").style.display = "none";
+    document.getElementById("t2").style.display = "none";
+    document.getElementById("t3").style.display = "block";
+    document.getElementById("t4").style.display = "none";
+
+    document.getElementById("n1").style.display = "none";
+    document.getElementById("n2").style.display = "none";
+    document.getElementById("n3").style.display = "block";
+    document.getElementById("n4").style.display = "none";
+  } else if (n == 3) {
+    document.getElementById("prevBtn").style.display = "none";
+    // document.getElementById("member").style.display = "block";
+
+    document.getElementById("t1").style.display = "none";
+    document.getElementById("t2").style.display = "none";
+    document.getElementById("t3").style.display = "none";
+    document.getElementById("t4").style.display = "block";
+
+    document.getElementById("n1").style.display = "none";
+    document.getElementById("n2").style.display = "none";
+    document.getElementById("n3").style.display = "none";
+    document.getElementById("n4").style.display = "block";
   }
   
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Valider";
+    document.getElementById("nextBtn").innerHTML = "Terminer";
   } else {
     document.getElementById("nextBtn").innerHTML = "Suivant";
   }
-  // ... and run a function that displays the correct step indicator:
-  fixStepIndicator(n)
 }
 
 

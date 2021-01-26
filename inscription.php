@@ -38,14 +38,19 @@
 
 <body>
     <form id="regForm" action="">
-
+        <!-- TITRE DE GAUCHE -->
         <section id="bg-left">
             <h1 class="title" id="t1">MES INFORMATIONS <br> PERSONNELLES</h1>
             <h1 class="title" id="t2">MES SKILLS</h1>
-            <p class="numbers" id="n1">01-04</p>
-            <p class="numbers" id="n2">02-04</p>
+            <h1 class="title" id="t3">MON STYLE <br> DE MUSIQUE</h1>
+            <h1 class="title" id="t4">BIENVENUE SUR SLYDE !</h1>
+            <p class="numbers" id="n1">01 -04</p>
+            <p class="numbers" id="n2">02 -04</p>
+            <p class="numbers" id="n3">03 -04</p>
+            <p class="numbers" id="n4">04 -04</p>
         </section>
         <section id="sign">
+            <!-- NAVIGATEUR -->
             <nav class="header-sign">
                 <a href="index.html" class="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
@@ -59,59 +64,87 @@
                         </g>
                     </svg>
                     <div class="back-text" id="back-home">
-                        Retour à l'accueil 
+                        Retour à l'accueil
                     </div>
                 </a>
                 <div id="prevBtn" onclick="nextPrev(-1)">Retour à l'étape précédente</div>
 
-                <p id="member">Déjà membre ?
-                    <a href="connexion.php" class="link-sign">
-                        Se connecter
-                    </a>
-                </p>
+                <div id="member">
+                    <p>Déjà membre ?
+                        <a href="connexion.php" class="link-sign">
+                            Se connecter
+                        </a>
+                    </p>
+                </div>
             </nav>
-
+            <div>
+                <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+            </div>
+            <!-- MES INFORMATIONS PERSONNELLES -->
             <div class="tab">
+                <div class="res-nav">
+                    <h2 id="t1">Mes informations personnelles</h2>
+                    <hr>
+                </div>
                 <div class="form-signup">
                     <div class="separate">
-                        <input type="text" name="lastname" placeholder="Nom*" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                        <input type="text" name="name" placeholder="Prénom*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="text" name="lastname" placeholder="Nom*" value="wfwef@greg.fr"
+                            oninput="this.className = ''" required>
+                        <input type="text" name="name" placeholder="Prénom*" value="wfwef@greg.fr"
+                            oninput="this.className = ''" required>
                     </div>
-                    <input type="text" name="username" placeholder="Nom d'utilisateur*" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                    <input type="email" name="email" placeholder="Email*" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                    <input type="text" name="location" placeholder="Ville, région" value="wfwef@greg.fr" oninput="this.className = ''">
+                    <input type="text" name="username" placeholder="Nom d'utilisateur*" value="wfwef@greg.fr"
+                        oninput="this.className = ''" required>
+                    <input type="email" name="email" placeholder="Email*" value="wfwef@greg.fr"
+                        oninput="this.className = ''" required>
+                    <input type="text" name="location" placeholder="Ville, région" value="wfwef@greg.fr"
+                        oninput="this.className = ''">
                     <div class="separate">
-                        <input type="password" name="pwd" placeholder="Mot de passe*" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Mot de passe*" value="wfwef@greg.fr"
+                            oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe*" value="wfwef@greg.fr"
+                            oninput="this.className = ''" required>
                     </div>
                 </div>
                 <label>
                     <div class="conditions">
-                      <input type="checkbox" name="conditions">
+                        <input type="checkbox" name="conditions">
                         <span class="checkmark"></span>
-                        J’accepte les  
+                        J’accepte les
                     </div>
-                     <a href="cgu.html" target="_blank" class="cgu-link">Conditions générales d’utilisation</a>
+                    <a href="cgu.html" target="_blank" class="cgu-link">Conditions générales d’utilisation</a>
                 </label>
             </div>
 
+            <!-- MES SKILLS -->
             <div class="tab">
-                <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+                <p>Choisis ton/tes instruments:</p>
+                <select name="" id="">
+                </select>
             </div>
 
+            <!-- MON STYLE DE MUSIQUE -->
             <div class="tab">Birthday:
                 <p><input placeholder="dd" oninput="this.className = ''"></p>
                 <p><input placeholder="mm" oninput="this.className = ''"></p>
                 <p><input placeholder="yyyy" oninput="this.className = ''"></p>
             </div>
 
+            <!-- BIENVENUE CHEZ SLYDE -->
             <div class="tab">Login Info:
                 <p><input placeholder="Username..." oninput="this.className = ''"></p>
                 <p><input placeholder="Password..." oninput="this.className = ''"></p>
             </div>
 
             <button type="button" id="nextBtn" class="nextbutton" onclick="nextPrev(1)"></button>
-        </div>
+
+            <div id="member" class="res-nav">
+                <p>Déjà membre ?
+                    <a href="connexion.php" class="link-sign">
+                        Se connecter
+                    </a>
+                </p>
+            </div>
     </form>
 
     <script type="text/javascript" src="assets/js/form.js"></script>

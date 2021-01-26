@@ -47,22 +47,31 @@
         <section id="sign">
             <nav class="header-sign">
                 <a href="index.html" class="back-home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121" class="arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
+                        class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
-                            <line id="Line_161" data-name="Line 161" x1="39" transform="translate(0.5 10.5)" fill="none" stroke="#fee12e" stroke-width="3"/>
-                            <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0" transform="translate(10) rotate(90)" fill="none" stroke="#fee12e" stroke-linejoin="round" stroke-width="3"/>
+                            <line id="Line_161" data-name="Line 161" x1="39" transform="translate(0.5 10.5)" fill="none"
+                                stroke="#fee12e" stroke-width="3" />
+                            <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0"
+                                transform="translate(10) rotate(90)" fill="none" stroke="#fee12e"
+                                stroke-linejoin="round" stroke-width="3" />
                         </g>
                     </svg>
                     <div class="back-text" id="back-home">
-                        Retour à l'accueil 
+                        Retour à l'accueil
                     </div>
                 </a>
-                <p id="member"> Pas encore membre ? 
-                    <a href="inscription.php" class="link-sign">
-                        S'inscrire
-                    </a>
-                </p>
+                <div id="member">
+                    <p>Pas encore membre ?
+                        <a href="inscription.php" class="link-sign">
+                            S'inscrire
+                        </a>
+                    </p>
+                </div>
             </nav>
+            <div>
+                <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+            </div>
 
             <div class="wrapper-right">
                 <h2>Connexion à mon compte Slyde</h2>
@@ -74,6 +83,13 @@
                     <button type="submit">Se connecter</button>
                 </form>
             </div>
+            <div id="member" class="res-nav">
+                        <p>Déjà membre ?
+                            <a href="connexion.php" class="link-sign">
+                                Se connecter
+                            </a>
+                        </p>
+                    </div>
         </section>
     </div>
 </body>

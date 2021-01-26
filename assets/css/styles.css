@@ -445,9 +445,13 @@ footer {
     user-select: none;
 }
 
-#member {
+#member p {
     position: absolute;
     right: 30px;
+}
+
+.res-nav {
+    display: none;
 }
 
 .tab,
@@ -462,10 +466,11 @@ footer {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.7rem;
-    margin-bottom: 30px;
 }
 
 hr {
+    margin-top: 30px;
+    margin-bottom: 35px;
     width: 5rem;
     border-width: 0;
     height: 3px;
@@ -506,10 +511,6 @@ input[name="password"] {
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
-}
-
-.form-singin {
-    margin-top: 35px;
 }
 
 .forgot-pwd {
@@ -658,6 +659,48 @@ label a:hover {
     /* CONNEXION */
     .title {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* CONNEXION */
+    #bg-left {
+        display: none;
+    }
+
+    #sign {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    .res-nav {
+        display: block;
+    }
+
+    .tab {
+        padding-top: 150px;
+    }
+
+    .header-sign {
+        display: none;
+    }
+
+    .nextbutton {
+        width: 70%;
+        position: initial;
+    }
+
+    #member {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+    }
+
+    #member p {
+        position: initial;
+        text-align: center;
     }
 }
 
