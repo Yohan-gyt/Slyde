@@ -825,6 +825,16 @@ label a:hover {
     .icons-footer {
         margin-bottom: 20px;
     }
+
+    /* CONNEXION */
+
+    .tab,
+    .wrapper-right {
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
 }
 
 @media screen and (max-width: 600px) {
