@@ -37,55 +37,84 @@
 </head>
 
 <body>
-    <div class="wrapper-sign">
-        <section id="bg-left">
-            <h1 class="title">MES INFORMATIONS <br> PERSONNELLES</h1>
-            <p class="numbers">01-04</p>
-        </section>
+    <form id="regForm" action="">
 
-        <section id="signup">
+        <section id="bg-left">
+            <h1 class="title" id="t1">MES INFORMATIONS <br> PERSONNELLES</h1>
+            <h1 class="title" id="t2">MES SKILLS</h1>
+            <p class="numbers" id="n1">01-04</p>
+            <p class="numbers" id="n2">02-04</p>
+        </section>
+        <section id="sign">
             <nav class="header-sign">
                 <a href="index.html" class="back-home">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121" class="arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
+                        class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
-                            <line id="Line_161" data-name="Line 161" x1="39" transform="translate(0.5 10.5)" fill="none" stroke="#fee12e" stroke-width="3"/>
-                            <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0" transform="translate(10) rotate(90)" fill="none" stroke="#fee12e" stroke-linejoin="round" stroke-width="3"/>
+                            <line id="Line_161" data-name="Line 161" x1="39" transform="translate(0.5 10.5)" fill="none"
+                                stroke="#fee12e" stroke-width="3" />
+                            <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0"
+                                transform="translate(10) rotate(90)" fill="none" stroke="#fee12e"
+                                stroke-linejoin="round" stroke-width="3" />
                         </g>
                     </svg>
-                    <div class="back-text">
-                        Retour à l'accueil
+                    <div class="back-text" id="back-home">
+                        Retour à l'accueil 
                     </div>
                 </a>
-                <p>Déjà membre ?
+                <div id="prevBtn" onclick="nextPrev(-1)">Retour à l'étape précédente</div>
+
+                <p id="member">Déjà membre ?
                     <a href="connexion.php" class="link-sign">
-                         Se connecter
+                        Se connecter
                     </a>
                 </p>
             </nav>
-            <div class="wrapper-right">
-                <form action="assets/php/" method="POST" class="form-signup">
+
+            <div class="tab">
+                <div class="form-signup">
                     <div class="separate">
-                        <input type="text" name="lastname" placeholder="Nom" required>
-                        <input type="text" name="name" placeholder="Prénom" required>
+                        <input type="text" name="lastname" placeholder="Nom" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="text" name="name" placeholder="Prénom" value="wfwef@greg.fr" oninput="this.className = ''" required>
                     </div>
-                    <input type="text" name="username" placeholder="Nom d'utilisateur" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                    <input type="text" name="location" placeholder="Localisation" required>
+                    <input type="text" name="username" placeholder="Nom d'utilisateur" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                    <input type="email" name="email" placeholder="Email" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                    <input type="text" name="location" placeholder="Localisation" value="wfwef@greg.fr" oninput="this.className = ''" required>
                     <div class="separate">
-                        <input type="password" name="pwd" placeholder="Mot de passe" required>
-                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe" required>
+                        <input type="password" name="pwd" placeholder="Mot de passe" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe" value="wfwef@greg.fr" oninput="this.className = ''" required>
                     </div>
-                </form>
-                
-                <label class="conditions">
-                    <input type="checkbox" name="conditions">
-                    <span class="checkmark"></span>
-                    J’accepte les Conditions générales d’utilisation
+                </div>
+                <label>
+                    <div class="conditions">
+                      <input type="checkbox" name="conditions">
+                        <span class="checkmark"></span>
+                        J’accepte les  
+                    </div>
+                     <a href="cgu.html" target="_blank" class="cgu-link">Conditions générales d’utilisation</a>
                 </label>
             </div>
-            <button type="submit" class="nextbutton">Suivant</button>
-        </section>
-    </div>
+
+            <div class="tab">
+                <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">Birthday:
+                <p><input placeholder="dd" oninput="this.className = ''"></p>
+                <p><input placeholder="mm" oninput="this.className = ''"></p>
+                <p><input placeholder="yyyy" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">Login Info:
+                <p><input placeholder="Username..." oninput="this.className = ''"></p>
+                <p><input placeholder="Password..." oninput="this.className = ''"></p>
+            </div>
+
+            <button type="button" id="nextBtn" class="nextbutton" onclick="nextPrev(1)"></button>
+        </div>
+    </form>
+
+    <script type="text/javascript" src="assets/js/form.js"></script>
 </body>
 
 </html>

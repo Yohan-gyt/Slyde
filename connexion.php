@@ -44,7 +44,7 @@
             <h1 class="title">CONNEXION</h1>
         </section>
 
-        <section id="signin">
+        <section id="sign">
             <nav class="header-sign">
                 <a href="index.html" class="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121" class="arrow">
@@ -53,11 +53,11 @@
                             <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0" transform="translate(10) rotate(90)" fill="none" stroke="#fee12e" stroke-linejoin="round" stroke-width="3"/>
                         </g>
                     </svg>
-                    <div class="back-text">
-                        Retour à l'accueil
+                    <div class="back-text" id="back-home">
+                        Retour à l'accueil 
                     </div>
                 </a>
-                <p> Pas encore membre ? 
+                <p id="member"> Pas encore membre ? 
                     <a href="inscription.php" class="link-sign">
                         S'inscrire
                     </a>

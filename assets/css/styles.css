@@ -406,6 +406,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    position: fixed;
+    margin-right: 60%;
 }
 
 .title {
@@ -416,21 +418,23 @@ footer {
 }
 
 /* HEADER */
-#signin,
-#signup {
+#sign {
     display: flex;
-    height: 100vh;
     width: 60%;
+    height: 100vh;
+    margin-left: 40%;
 }
 
-.back-home {
+.back-home,
+#prevBtn {
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     font-size: 1.1rem;
     display: flex;
     justify-content: center;
 }
 
-.back-home:hover {
+.back-home:hover,
+#prevBtn:hover {
     color: #FEE10B;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -440,9 +444,11 @@ footer {
     transform: translateY(1.5px);
 }
 
-.back-text {
+#back-home,
+#prevBtn {
     margin: auto;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .link-sign {
@@ -465,14 +471,17 @@ footer {
     user-select: none;
 }
 
-.header-sign p {
+#member {
     position: absolute;
     right: 30px;
 }
 
+.tab,
 .wrapper-right {
     width: 70%;
     margin: auto;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 .wrapper-right h2 {
@@ -489,8 +498,7 @@ hr {
     background: #FEE10B;
 }
 
-#signin input,
-#signup input {
+#sign input {
     background-color: #292828;
     color: #F5F5F5;
 }
@@ -508,6 +516,10 @@ input {
 input:focus {
     border-left: #FEE10B 5px solid;
     outline: none;
+}
+
+input.invalid {
+    border-left: red 5px solid;
 }
 
 input[name="password"] {
@@ -566,7 +578,7 @@ button:hover,
 .numbers {
     position: absolute;
     bottom: 30px;
-    width: 40%;
+    width: 100%;
     user-select: none;
 }
 
@@ -577,6 +589,10 @@ button:hover,
 .separate {
     display: flex;
     justify-content: space-around;
+}
+
+.tab {
+    display: none;
 }
 
 .form-signup input[name="lastname"],
@@ -591,12 +607,13 @@ button:hover,
 }
 
 .conditions {
-    display: block;
+    display: inline-block;
     position: relative;
     padding-left: 2rem;
     margin-bottom: 20px;
     cursor: pointer;
     user-select: none;
+    width: auto;
 }
 
 .conditions input {
@@ -609,7 +626,7 @@ button:hover,
 
 .checkmark {
     position: absolute;
-    top: 0;
+    top: 5%;
     left: 0;
     width: 1.3rem;
     height: 1.3rem;
@@ -648,19 +665,17 @@ button:hover,
     transform: rotate(45deg);
 }
 
+label a:hover {
+    color: #FEE10B;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
 .nextbutton {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 60%;
-    height: 3rem;
     border-radius: 0;
-    color: #121212;
     background-color: #FEE10B;
-    font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    outline: none;
-    cursor: pointer;
 }
 
 /* -------------------- RESPONSIVE -------------------- */
