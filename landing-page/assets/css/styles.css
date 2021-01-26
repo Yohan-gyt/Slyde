@@ -125,23 +125,6 @@ a:hover {
     margin-right: 2.5rem;
 }
 
-.insta,
-.linkedin {
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.insta:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.linkedin:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
 /* SECTION 2, 3 & 4*/
 #s2 {
     background-image: url(../img/background/create.png);
@@ -309,7 +292,7 @@ button:hover {
 }
 
 .response a:hover {
-    color: #FEE10B;
+    color: #A2A2A2;
     opacity: 100%;
 }
 
@@ -374,11 +357,6 @@ footer {
 .contact a {
     font-size: 1rem;
     opacity: 70%;
-}
-
-.contact a:hover {
-    color: #FEE10B;
-    opacity: 100%;
 }
 
 .copyright {

@@ -74,16 +74,12 @@ a:hover {
 
 .sign-btn>* {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
 }
 
-.signin-btn a {
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
 .signin-btn a:hover {
-    color: #FEE10B;
+    color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -94,7 +90,7 @@ a:hover {
     justify-content: center;
     background-color: #FEE10B;
     color: #121212;
-    width: 14rem;
+    width: 13rem;
     height: 2.5rem;
     border-radius: 5px;
     margin-left: 30px;
@@ -166,23 +162,6 @@ a:hover {
 
 .insta {
     margin-right: 2.5rem;
-}
-
-.insta,
-.linkedin {
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.insta:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.linkedin:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 /* SECTION 2, 3 & 4*/
@@ -342,11 +321,6 @@ footer {
     opacity: 70%;
 }
 
-.info a:hover {
-    color: #FEE10B;
-    opacity: 100%;
-}
-
 .cgu {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -435,7 +409,7 @@ footer {
 
 .back-home:hover,
 #prevBtn:hover {
-    color: #FEE10B;
+    color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -546,7 +520,7 @@ input[name="password"] {
 }
 
 .forgot-pwd:hover {
-    color: #FEE10B;
+    color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -666,7 +640,7 @@ button:hover,
 }
 
 label a:hover {
-    color: #FEE10B;
+    color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 

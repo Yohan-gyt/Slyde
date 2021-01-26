@@ -74,15 +74,15 @@
             <div class="tab">
                 <div class="form-signup">
                     <div class="separate">
-                        <input type="text" name="lastname" placeholder="Nom" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                        <input type="text" name="name" placeholder="Prénom" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="text" name="lastname" placeholder="Nom*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="text" name="name" placeholder="Prénom*" value="wfwef@greg.fr" oninput="this.className = ''" required>
                     </div>
-                    <input type="text" name="username" placeholder="Nom d'utilisateur" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                    <input type="email" name="email" placeholder="Email" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                    <input type="text" name="location" placeholder="Localisation" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                    <input type="text" name="username" placeholder="Nom d'utilisateur*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                    <input type="email" name="email" placeholder="Email*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                    <input type="text" name="location" placeholder="Ville, région" value="wfwef@greg.fr" oninput="this.className = ''">
                     <div class="separate">
-                        <input type="password" name="pwd" placeholder="Mot de passe" value="wfwef@greg.fr" oninput="this.className = ''" required>
-                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Mot de passe*" value="wfwef@greg.fr" oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe*" value="wfwef@greg.fr" oninput="this.className = ''" required>
                     </div>
                 </div>
                 <label>
