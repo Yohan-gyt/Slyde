@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://slyde.fr/index.html">
+    <meta property="twitter:url" content="https://slyde.fr/inscription.php">
     <meta property="twitter:title" content="SLYDE - Inscription">
     <meta property="twitter:description"
         content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
@@ -52,7 +52,7 @@
         <section id="sign">
             <!-- NAVIGATEUR -->
             <nav class="header-sign">
-                <a href="index.html" id="back-home">
+                <a href="index.php" id="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
                         class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
@@ -92,7 +92,7 @@
                 </div>
             </nav>
             <div>
-                <a href="index.html">
+                <a href="index.php">
                     <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
                 </a>
             </div>
@@ -128,7 +128,7 @@
                         <span class="checkmark"></span>
                         J’accepte les
                     </div>
-                    <a href="cgu.html" target="_blank" class="cgu-link">Conditions générales d’utilisation</a>
+                    <a href="cgu.php" target="_blank" class="cgu-link">Conditions générales d’utilisation</a>
                 </label>
             </div>
 

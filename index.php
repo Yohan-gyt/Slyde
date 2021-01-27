@@ -9,13 +9,13 @@
     <meta name="description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://slyde.fr/index.html">
+    <meta property="og:url" content="https://slyde.fr/index.php">
     <meta property="og:title" content="SLYDE - Créer, collaborer, partager">
     <meta property="og:description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://slyde.fr/index.html">
+    <meta property="twitter:url" content="https://slyde.fr/index.php">
     <meta property="twitter:title" content="SLYDE - Créer, collaborer, partager">
     <meta property="twitter:description"
         content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
@@ -140,10 +140,10 @@
                 <div class="info">
                     <p>Nous contacter</p>
                     <a href="mailto:contact@slyde.fr">contact@slyde.fr</a>
-                    <a href="cgu.html">
+                    <a href="cgu.php">
                         <p class="cgu">Conditions générales d'utilisation</p>
                     </a>
-                    <a href="confidentialité.html">
+                    <a href="confidentialité.php">
                         <p>Confidentialité</p>
                     </a>
                 </div>
