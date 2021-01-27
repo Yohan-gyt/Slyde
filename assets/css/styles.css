@@ -42,7 +42,7 @@ a:hover {
 #s1,
 #s2,
 #s3,
-#s4 {
+#s4, {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -656,6 +656,72 @@ label a:hover {
     width: 60%;
     border-radius: 0;
     background-color: #FEE10B;
+}
+/* -------------------- FEED -------------------- */
+.wrapper-feed{
+    margin-left: 130px;
+    margin-right: 130px;
+    /* border: 1px solid white; */
+}
+
+.wrapper-card{
+    display: flex;
+}
+
+.card-body{
+    max-width: 518px;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2.3rem;
+}
+
+.card{
+    width: 518px;
+    height: 297px;
+    /* border: 1px solid red; */
+    /* width: 10vw; */
+}
+
+.card-desc{
+    background-color: #2F2F2F;
+    padding: 1.5rem;
+}
+
+.navbar{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    /* align-items: flex-end;
+    justify-self: end; */
+}
+
+.fixed{
+    position: fixed;
+}
+
+.create-project{
+    width: 170px;
+    background-color: #12121200;
+    color: white;
+    border: 2px #EACD1C solid;
+    font-size: 1rem;
+}
+
+
+input[type="search"] {
+    height: 2rem;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type="search"]::placeholder {
+    color: black;
 }
 
 /* -------------------- RESPONSIVE -------------------- */
