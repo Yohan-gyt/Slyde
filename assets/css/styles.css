@@ -399,7 +399,7 @@ footer {
     margin-left: 40%;
 }
 
-.back-home,
+#back-home,
 #prevBtn {
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     font-size: 1.1rem;
@@ -407,7 +407,7 @@ footer {
     justify-content: center;
 }
 
-.back-home:hover,
+#back-home:hover,
 #prevBtn:hover {
     color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -418,8 +418,7 @@ footer {
     transform: translateY(1.5px);
 }
 
-#back-home,
-#prevBtn {
+.back-home {
     margin: auto;
     margin-left: 15px;
     cursor: pointer;
@@ -462,7 +461,12 @@ footer {
     padding-bottom: 80px;
 }
 
-.wrapper-right h2 {
+.wrapper-right {
+    padding-top: 150px;
+}
+
+.wrapper-right h2,
+.res-nav h2 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.7rem;
@@ -561,7 +565,8 @@ button:hover,
     margin-bottom: 30px;
 }
 
-.separate {
+.separate-name,
+.separate-pwd {
     display: flex;
     justify-content: space-around;
 }
@@ -654,7 +659,7 @@ label a:hover {
 }
 
 /* -------------------- RESPONSIVE -------------------- */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
 
     /* CONNEXION */
     .title {
@@ -679,8 +684,10 @@ label a:hover {
         display: block;
     }
 
-    .tab {
-        padding-top: 150px;
+    .tab,
+    .wrapper-right {
+        padding-top: 200px;
+        padding-bottom: 30px;
     }
 
     .header-sign {
@@ -693,9 +700,9 @@ label a:hover {
     }
 
     #member {
-        position: absolute;
-        bottom: 30px;
         width: 100%;
+        margin-top: 10vh;
+        padding-bottom: 50px;
     }
 
     #member p {
@@ -832,8 +839,38 @@ label a:hover {
     .wrapper-right {
         width: 90%;
         margin: auto;
-        padding-top: 100px;
-        padding-bottom: 80px;
+        padding-top: 150px;
+    }
+
+    .wrapper-right h2,
+    .res-nav h2 {
+        font-size: 1.3rem;
+    }
+
+    input {
+        height: 2.5rem;
+    }
+
+    .form-signup input {
+        margin-bottom: 25px;
+    }
+
+    .form-signup input:first-child {
+        margin-right: 25px;
+    }
+
+    .separate-pwd {
+        display: block;
+    }
+
+    .form-signup input[name="pwd"] {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .nextbutton {
+        width: 90%;
+        height: 2.5rem;
     }
 }
 
@@ -855,5 +892,17 @@ label a:hover {
 
     .wrapper-signup-btn {
         display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    /* CONNEXION */
+    .checkmark {
+        top: -15%;
+    }
+
+    .tab label {
+        font-size: 0.8rem;
     }
 }

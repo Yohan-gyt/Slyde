@@ -7,8 +7,7 @@ function showTab(n) {
   x[n].style.display = "block";
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
-    document.getElementById("back-home").style.display = "block";
-    console.log(document.getElementsByClassName("back-text"));
+    document.getElementById("back-home").style.display = "flex";
     document.getElementById("prevBtn").style.display = "none";
     document.getElementById("member").style.display = "block";
 
@@ -24,7 +23,7 @@ function showTab(n) {
 
   } else if (n == 1) {
     document.getElementById("back-home").style.display = "none";
-    document.getElementById("prevBtn").style.display = "block";
+    document.getElementById("prevBtn").style.display = "flex";
     document.getElementById("member").style.display = "none";
 
     document.getElementById("t1").style.display = "none";
@@ -38,7 +37,9 @@ function showTab(n) {
     document.getElementById("n4").style.display = "none";
   } 
   else if (n == 2){
-    document.getElementById("prevBtn").style.display = "none";
+    document.getElementById("back-home").style.display = "none";
+    document.getElementById("prevBtn").style.display = "flex";
+    document.getElementById("member").style.display = "none";
     // document.getElementById("member").style.display = "block";
     
     document.getElementById("t1").style.display = "none";
@@ -51,7 +52,9 @@ function showTab(n) {
     document.getElementById("n3").style.display = "block";
     document.getElementById("n4").style.display = "none";
   } else if (n == 3) {
-    document.getElementById("prevBtn").style.display = "none";
+    document.getElementById("back-home").style.display = "none";
+    document.getElementById("prevBtn").style.display = "flex";
+    document.getElementById("member").style.display = "none";
     // document.getElementById("member").style.display = "block";
 
     document.getElementById("t1").style.display = "none";

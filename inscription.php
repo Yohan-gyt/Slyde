@@ -52,7 +52,7 @@
         <section id="sign">
             <!-- NAVIGATEUR -->
             <nav class="header-sign">
-                <a href="index.html" class="back-home">
+                <a href="index.html" id="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
                         class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
@@ -63,11 +63,25 @@
                                 stroke-linejoin="round" stroke-width="3" />
                         </g>
                     </svg>
-                    <div class="back-text" id="back-home">
+                    <div class="back-text back-home">
                         Retour à l'accueil
                     </div>
                 </a>
-                <div id="prevBtn" onclick="nextPrev(-1)">Retour à l'étape précédente</div>
+                <div id="prevBtn" onclick="nextPrev(-1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
+                        class="arrow">
+                        <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
+                            <line id="Line_161" data-name="Line 161" x1="39" transform="translate(0.5 10.5)" fill="none"
+                                stroke="#fee12e" stroke-width="3" />
+                            <path id="Path_2" data-name="Path 2" d="M0,0,10,10,20,0"
+                                transform="translate(10) rotate(90)" fill="none" stroke="#fee12e"
+                                stroke-linejoin="round" stroke-width="3" />
+                        </g>
+                    </svg>
+                    <div class="back-text back-home">
+                        Retour à l'étape précédente
+                    </div>
+                </div>
 
                 <div id="member">
                     <p>Déjà membre ?
@@ -78,7 +92,9 @@
                 </div>
             </nav>
             <div>
-                <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+                <a href="index.html">
+                    <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+                </a>
             </div>
             <!-- MES INFORMATIONS PERSONNELLES -->
             <div class="tab">
@@ -87,7 +103,7 @@
                     <hr>
                 </div>
                 <div class="form-signup">
-                    <div class="separate">
+                    <div class="separate-name">
                         <input type="text" name="lastname" placeholder="Nom*" value="wfwef@greg.fr"
                             oninput="this.className = ''" required>
                         <input type="text" name="name" placeholder="Prénom*" value="wfwef@greg.fr"
@@ -99,7 +115,7 @@
                         oninput="this.className = ''" required>
                     <input type="text" name="location" placeholder="Ville, région" value="wfwef@greg.fr"
                         oninput="this.className = ''">
-                    <div class="separate">
+                    <div class="separate-pwd">
                         <input type="password" name="pwd" placeholder="Mot de passe*" value="wfwef@greg.fr"
                             oninput="this.className = ''" required>
                         <input type="password" name="pwd" placeholder="Confirmer le mot de passe*" value="wfwef@greg.fr"

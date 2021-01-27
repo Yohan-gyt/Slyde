@@ -46,7 +46,7 @@
 
         <section id="sign">
             <nav class="header-sign">
-                <a href="index.html" class="back-home">
+                <a href="index.html" id="back-home">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
                         class="arrow">
                         <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
@@ -57,7 +57,7 @@
                                 stroke-linejoin="round" stroke-width="3" />
                         </g>
                     </svg>
-                    <div class="back-text" id="back-home">
+                    <div class="back-text back-home">
                         Retour à l'accueil
                     </div>
                 </a>
@@ -70,7 +70,9 @@
                 </div>
             </nav>
             <div>
-                <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+                <a href="index.html">
+                    <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
+                </a>
             </div>
 
             <div class="wrapper-right">
@@ -84,9 +86,9 @@
                 </form>
             </div>
             <div id="member" class="res-nav">
-                        <p>Déjà membre ?
-                            <a href="connexion.php" class="link-sign">
-                                Se connecter
+                        <p>Pas encore membre ?
+                            <a href="inscription.php" class="link-sign">
+                                S'inscrire
                             </a>
                         </p>
                     </div>
