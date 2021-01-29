@@ -659,29 +659,42 @@ label a:hover {
 }
 
 /* -------------------- FEED -------------------- */
+#feed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .wrapper-feed {
-    margin-left: 130px;
-    margin-right: 130px;
-    /* border: 1px solid white; */
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    width: 95%;
+    /* height: 100vh; */
+    padding: 2rem;
+    border: 1px solid white;
 }
 
 .wrapper-card {
     display: flex;
+    /* border: 1px solid rgb(0, 255, 34); */
 }
 
 .card-body {
-    max-width: 518px;
-    /* border: 1px solid blue; */
+    /* max-width: 518px; */
+    /* width: ; */
+    border: 1px solid blue;
     flex-direction: column;
-    margin-right: 2rem;
+    /* margin-right: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2.3rem;
+    margin-top: 2.3rem; */
+    margin: 2rem;
 }
 
 .card {
-    width: 518px;
+    /* width: 518px; */
+    width: 100%;
     height: 297px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     /* width: 10vw; */
 }
 
@@ -695,6 +708,7 @@ label a:hover {
     margin-bottom: 2rem;
     width: 100%;
     display: flex;
+    background-color: rgb(255, 251, 251);
     /* align-items: flex-end;
     justify-self: end; */
 }
@@ -705,6 +719,7 @@ label a:hover {
 
 .create-project {
     width: 170px;
+    margin:0rem;
     background-color: #12121200;
     color: white;
     border: 2px #EACD1C solid;
@@ -716,6 +731,7 @@ input[type="search"] {
     height: 2rem;
     width: 350px;
     border-radius: 5px;
+
     display: flex;
     justify-content: center;
     text-align: center;
@@ -827,7 +843,7 @@ input[type="search"]::placeholder {
         height: 1.8rem;
     }
 
-    /* SECTION 2,3 &4 */
+    /* SECTION 2,3 & 4 */
     #s2 {
         background-image: url(../img/background/create-mobile.png);
         background-position: center;

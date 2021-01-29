@@ -15,8 +15,8 @@
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://slyde.fr/connexion.php">
-    <meta property="twitter:title" content="SLYDE - Connexion">
+    <meta property="twitter:url" content="https://slyde.fr/feed.php">
+    <meta property="twitter:title" content="SLYDE - Feed">
     <meta property="twitter:description"
         content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="twitter:image" content="https://www.slyde.fr/assets/card/card.jpg">
@@ -39,118 +39,135 @@
 </head>
 
 <body>
+    <div>
+        <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
+    </div>
+    <nav class="navbar">
+        <!-- <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search"> -->
+        <button class="create-project">Créer un projet</button>
+    </nav>
     <section id="feed">
-        <div>
-            <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
-        </div>
-        <nav class="navbar">
-            <!-- <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search"> -->
-            <button class="create-project">Créer un projet</button>
-        </nav>
-
         <div class="wrapper-feed">
             <!-- REPRENDRE LES PROJETS -->
             <h3>Reprendre mes projets</h3>
 
             <div class="wrapper-card">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
+
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <!-- NOUVEAUX PROJETS -->
             <h3>Nouveaux projets</h3>
             <div class="wrapper-card">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="wrapper-card">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </a>
+        </div>
+        <div class="wrapper-card">
+            <!-- <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
+                </a>
 
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </a> -->
+        </div>
 
     </section>
-
 
     <footer>
         <div class="container-footer">

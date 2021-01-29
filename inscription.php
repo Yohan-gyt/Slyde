@@ -96,6 +96,7 @@
                     <img class="logo res-nav" src="assets/img/logos/logo.png" alt="" draggable="false">
                 </a>
             </div>
+
             <!-- MES INFORMATIONS PERSONNELLES -->
             <div class="tab">
                 <div class="res-nav">
@@ -134,20 +135,20 @@
 
             <!-- MES SKILLS -->
             <div class="tab">
-                <p>Choisis ton/tes instruments:</p>
+                <p>Choisis ton/tes skills:</p>
                 <select name="" id="">
                 </select>
             </div>
 
             <!-- MON STYLE DE MUSIQUE -->
-            <div class="tab">Birthday:
+            <div class="tab">
                 <p><input placeholder="dd" oninput="this.className = ''"></p>
                 <p><input placeholder="mm" oninput="this.className = ''"></p>
                 <p><input placeholder="yyyy" oninput="this.className = ''"></p>
             </div>
 
             <!-- BIENVENUE CHEZ SLYDE -->
-            <div class="tab">Login Info:
+            <div class="tab">
                 <p><input placeholder="Username..." oninput="this.className = ''"></p>
                 <p><input placeholder="Password..." oninput="this.className = ''"></p>
             </div>
