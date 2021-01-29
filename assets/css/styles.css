@@ -664,38 +664,45 @@ label a:hover {
     flex-direction: column;
     align-items: center;
     width: 100%;
+
+    margin-bottom: 12%;
 }
+
 .wrapper-feed {
     /* margin-left: 130px;
     margin-right: 130px; */
-    width: 95%;
-    /* height: 100vh; */
+    width: 98%;
     padding: 2rem;
-    border: 1px solid white;
 }
 
 .wrapper-card {
     display: flex;
-    /* border: 1px solid rgb(0, 255, 34); */
 }
 
+.wrapper-feed h3{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+
+/* CARTES */
 .card-body {
     /* max-width: 518px; */
-    /* width: ; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+    background-color: #2f2f2f;
     flex-direction: column;
-    /* margin-right: 2rem;
+
+    margin-right: 1.5rem;
     margin-bottom: 2rem;
-    margin-top: 2.3rem; */
-    margin: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
 }
 
 .card {
     /* width: 518px; */
     width: 100%;
-    height: 297px;
-    border: 1px solid red;
-    /* width: 10vw; */
+    /* height: 297px; */
+    max-height: 18.563rem;
+    /* height: 60%; */
 }
 
 .card-desc {
@@ -917,7 +924,7 @@ input[type="search"]::placeholder {
         margin-bottom: 20px;
     }
 
-    /* CONNEXION */
+    /* ---------- CONNEXION ---------- */
 
     .tab,
     .wrapper-right {
@@ -955,6 +962,11 @@ input[type="search"]::placeholder {
     .nextbutton {
         width: 90%;
         height: 2.5rem;
+    }
+
+    /* ---------- FEED ---------- */
+    .wrapper-card{
+        display: block;
     }
 }
 

@@ -39,9 +39,9 @@
 </head>
 
 <body>
-    <div>
+    <a href="#">
         <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
-    </div>
+    </a>
     <nav class="navbar">
         <!-- <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search"> -->
         <button class="create-project">Créer un projet</button>
@@ -52,7 +52,7 @@
             <h3>Reprendre mes projets</h3>
 
             <div class="wrapper-card">
-                <a href="##">
+                <a href="projet.html">
                     <div class="card-body">
                         <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
                         <div class="card-desc">
@@ -128,9 +128,9 @@
                         </div>
                     </div>
                 </a>
-        </div>
-        <div class="wrapper-card">
-            <!-- <a href="##">
+            </div>
+            <div class="wrapper-card">
+                <a href="projet.html">
                     <div class="card-body">
                         <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
                         <div class="card-desc">
@@ -141,6 +141,7 @@
                         </div>
                     </div>
                 </a>
+
 
                 <a href="##">
                     <div class="card-body">
@@ -164,8 +165,46 @@
                             <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                     </div>
-                </a> -->
-        </div>
+                </a>
+            </div>
+
+            <div class="wrapper-card">
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Pop & RnB</span></h4>
+                            <h4 class="card-title">Nom du projet</h4>
+                            <p class="user">John Doe</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
 
     </section>
 
