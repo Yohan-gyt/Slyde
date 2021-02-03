@@ -43,8 +43,13 @@
         <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
     </a>
     <nav class="navbar">
-        <!-- <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search"> -->
-        <button class="create-project">Créer un projet</button>
+        <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search">
+        <div class="absolute-right"> 
+            <button class="create-project">Créer un projet</button>
+            <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
+            <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
+        </div>
+
     </nav>
     <section id="feed">
         <div class="wrapper-feed">
@@ -63,7 +68,6 @@
                         </div>
                     </div>
                 </a>
-
 
                 <a href="##">
                     <div class="card-body">

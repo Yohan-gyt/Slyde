@@ -702,7 +702,6 @@ label a:hover {
     width: 100%;
     /* height: 297px; */
     max-height: 18.563rem;
-    /* height: 60%; */
 }
 
 .card-desc {
@@ -715,33 +714,56 @@ label a:hover {
     margin-bottom: 2rem;
     width: 100%;
     display: flex;
-    background-color: rgb(255, 251, 251);
-    /* align-items: flex-end;
-    justify-self: end; */
+    justify-content: center;
 }
 
 .fixed {
     position: fixed;
 }
 
-.create-project {
-    width: 170px;
-    margin:0rem;
-    background-color: #12121200;
-    color: white;
-    border: 2px #EACD1C solid;
-    font-size: 1rem;
+.absolute-right {
+    position: absolute;
+    width: 100%;
+    display: flex;
 }
 
+.create-project {
+    height: 2.375rem;
+    width: 220px;
+    margin:0rem;
+    font-size: 1rem;
+
+    color: white;
+    background-color: #12121200;
+    border: 2px #EACD1C solid;
+
+    position: absolute;
+    right: 19%;
+}
+
+.notif,
+.messages {
+    height: 2rem;
+}
+
+.notif {
+    position: absolute;
+    right: 15%;
+}
+
+.messages {
+    position: absolute;
+    right: 10%;
+} 
 
 input[type="search"] {
-    height: 2rem;
+    height: 2.375rem;
     width: 350px;
     border-radius: 5px;
 
     display: flex;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 input[type="search"]::placeholder {
