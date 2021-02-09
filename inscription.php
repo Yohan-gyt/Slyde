@@ -125,7 +125,7 @@
                 </div>
                 <label>
                     <div class="conditions">
-                        <input type="checkbox" name="conditions">
+                        <input type="checkbox" name="conditions" required>
                         <span class="checkmark"></span>
                         J’accepte les
                     </div>
@@ -136,7 +136,14 @@
             <!-- MES SKILLS -->
             <div class="tab">
                 <p>Choisis ton/tes skills:</p>
-                <select name="" id="">
+                <select name="skill" id="">
+                    <option value="">Choisis tes skills</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
                 </select>
             </div>
 

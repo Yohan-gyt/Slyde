@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" lang="fr"
-        content="Rachel Albersario, Thanh-Trang Luu, Jules Cointrel, Paul Barbosa & Yohan Guyot">
+    <meta name="author" lang="fr" content="Rachel Albersario, Thanh-Trang Luu, Jules Cointrel, Paul Barbosa & Yohan Guyot">
     <meta name="description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
-
+    
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://slyde.fr/connexion.php">
     <meta property="og:title" content="SLYDE - Connexion">
