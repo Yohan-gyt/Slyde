@@ -481,12 +481,14 @@ hr {
     background: #FEE10B;
 }
 
-#sign input {
+#sign input,
+select {
     background-color: #292828;
     color: #F5F5F5;
 }
 
-input {
+input,
+select {
     user-select: none;
     border: none;
     font-size: 1rem;
@@ -768,6 +770,29 @@ input[type="search"] {
 
 input[type="search"]::placeholder {
     color: black;
+}
+
+/* -------- SKILLS --------- */
+select{
+    appearance: none;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.classic {
+    background-image:
+        linear-gradient(45deg, transparent 50%, #FEE10B 50%),
+        linear-gradient(135deg, #FEE10B 50%, transparent 50%);
+        /* linear-gradient(to right, #ccc, #ccc); */
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 10px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        10px 10px,
+        10px 10px,
+        1px 1.5em;
+    background-repeat: no-repeat;
 }
 
 /* -------------------- RESPONSIVE -------------------- */

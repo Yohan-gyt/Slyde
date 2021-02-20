@@ -136,7 +136,7 @@
             <!-- MES SKILLS -->
             <div class="tab">
                 <p>Choisis ton/tes skills:</p>
-                <select name="skill" id="">
+                <select name="skill" id="" class="classic">
                     <option value="">Choisis tes skills</option>
                     <option value="dog">Dog</option>
                     <option value="cat">Cat</option>
