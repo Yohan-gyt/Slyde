@@ -149,9 +149,35 @@
 
             <!-- MON STYLE DE MUSIQUE -->
             <div class="tab">
-                <p><input placeholder="dd" oninput="this.className = ''"></p>
-                <p><input placeholder="mm" oninput="this.className = ''"></p>
-                <p><input placeholder="yyyy" oninput="this.className = ''"></p>
+                <div class="grid-signup">
+                    <a href="#" class="focus">
+                    <div class="div1">
+                        <h3 class="title">Rock</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="focus">
+                    <div class="div2">
+                        <h3 class="title">Classique</h3>
+                    </div>
+                    </a>
+
+                    <div class="div3">
+                        <h3 class="title">Hip-Hop</h3>
+                    </div>
+
+                    <div class="div4">
+                        <h3 class="title">Jazz</h3>
+                    </div>
+
+                    <div class="div5">
+                        <h3 class="title">Techno</h3>
+                    </div>
+
+                    <div class="div6">
+                        <h3 class="title">Pop</h3>
+                    </div>
+                </div>
             </div>
 
             <!-- BIENVENUE CHEZ SLYDE -->
