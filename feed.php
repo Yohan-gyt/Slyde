@@ -59,7 +59,7 @@
             <div class="wrapper-card">
                 <a href="projet.html">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -71,7 +71,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -83,7 +83,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -99,7 +99,7 @@
             <div class="wrapper-card">
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -111,7 +111,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -123,7 +123,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -136,7 +136,7 @@
             <div class="wrapper-card">
                 <a href="projet.html">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -149,7 +149,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -161,7 +161,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -175,7 +175,7 @@
             <div class="wrapper-card">
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -187,7 +187,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
@@ -199,7 +199,7 @@
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-breakingpic-3094.jpg" alt="">
+                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
                             <h4 class="card-title">Nom du projet</h4>
