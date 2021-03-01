@@ -149,15 +149,78 @@
 
             <!-- MON STYLE DE MUSIQUE -->
             <div class="tab">
-                <p><input placeholder="dd" oninput="this.className = ''"></p>
-                <p><input placeholder="mm" oninput="this.className = ''"></p>
-                <p><input placeholder="yyyy" oninput="this.className = ''"></p>
+                <div class="grid-signup">
+
+                    <a href="#" class="focus">
+                        <div class="div1">
+                            <h3 class="title">Rock</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="focus">
+                        <div class="div2">
+                            <h3 class="title">Classique</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="focus">
+                        <div class="div3">
+                            <h3 class="title">Hip-Hop</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="focus">
+                        <div class="div4">
+                            <h3 class="title">Jazz</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="focus">
+                        <div class="div5">
+                            <h3 class="title">Techno</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="focus">
+                        <div class="div6">
+                            <h3 class="title">Pop</h3>
+                        </div>
+                    </a>
+                </div>
             </div>
 
             <!-- BIENVENUE CHEZ SLYDE -->
             <div class="tab">
-                <p><input placeholder="Username..." oninput="this.className = ''"></p>
-                <p><input placeholder="Password..." oninput="this.className = ''"></p>
+                <a href="#" class="focus">
+                    <div tabindex="0" class="bienvenue">
+                        <h3>Finaliser mon profil</h3>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
+                            class="arrow">
+                            <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
+                                <path
+                                    d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                                    fill="none" stroke="#ffff" stroke-linejoin="round" stroke-width="3" />
+                            </g>
+                        </svg>
+                        <img src="assets/img/3d/card.png" alt="card" class="card-svg">
+
+                        <p>Fais ressortir ta personnalité à travers ton profil pour que les autres utilisateurs puissent te reconnaître. </p>
+                    </div>
+                </a>
+                <!-- Je laisse le <a> au cas où ce soit utile, même si on peut l'enlever -->
+                <a href="#1" class="focus">
+                    <div tabindex="1" class="bienvenue">
+                        <h3>Découvrir Slyde</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="22.121" viewBox="0 0 41 22.121"
+                            class="arrow">
+                            <g id="Group_23" data-name="Group 23" transform="translate(1.5 1.061)">
+                                <path
+                                    d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"
+                                    fill="none" stroke="#ffff" stroke-linejoin="round" stroke-width="3" />
+                            </g>
+                        </svg>
+                        
+                        <img src="assets/img/3d/card-2.png" alt="card illustration" class="card-svg card2-svg">
+
+                        <p>Visite notre site pour te familiariser avec nos fonctionnalités et découvrir des projets et des artistes qui te plaisent.</p>
+                    </div>
+                </a>
             </div>
 
             <button type="button" id="nextBtn" class="nextbutton" onclick="nextPrev(1)"></button>
