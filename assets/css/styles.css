@@ -405,6 +405,7 @@ footer {
     font-size: 1.1rem;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 #back-home:hover,
@@ -481,14 +482,12 @@ hr {
     background: #FEE10B;
 }
 
-#sign input,
-select {
+#sign input {
     background-color: #292828;
     color: #F5F5F5;
 }
 
-input,
-select {
+input {
     user-select: none;
     border: none;
     font-size: 1rem;
@@ -648,6 +647,11 @@ button:hover,
     transform: rotate(45deg);
 }
 
+.cgu-link,
+.cgu-link:hover {
+    text-decoration: underline;
+}
+
 label a:hover {
     color: #A2A2A2;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -661,135 +665,113 @@ label a:hover {
     background-color: #FEE10B;
 }
 
-/* -------------------- FEED -------------------- */
-#feed{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    margin-bottom: 12%;
-}
-
-.wrapper-feed {
-    width: 98%;
-    padding: 2rem;
-}
-
-.wrapper-card {
-    display: flex;
-}
-
-.wrapper-feed h3{
-    margin-top: 4rem;
-    margin-left: 1.5rem;
-}
-
-/* --- CARTES --- */
-.card-body {
-    background-color: #2f2f2f;
-    flex-direction: column;
-
-    margin-right: 1.5rem;
-    margin-bottom: 2rem;
-    margin-left: 1.5rem;
-    margin-top: 2rem;
-}
-
-.card {
-    width: 100%;
-    max-height: 18.563rem;
-}
-
-.card-desc {
-    background-color: #2F2F2F;
-    padding: 1.5rem;
-}
-
-.navbar {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.absolute-right {
-    position: absolute;
-    width: 100%;
-    display: flex;
-}
-
-.create-project {
-    height: 2.375rem;
-    width: 220px;
-    margin:0rem;
-    font-size: 1rem;
-
-    color: white;
-    background-color: #12121200;
-    border: 2px #EACD1C solid;
-
-    position: absolute;
-    right: 19%;
-}
-
-.notif,
-.messages {
-    height: 2rem;
-}
-
-.notif {
-    position: absolute;
-    right: 15%;
-}
-
-.messages {
-    position: absolute;
-    right: 10%;
-} 
-
-input[type="search"] {
-    height: 2.375rem;
-    width: 350px;
-    border-radius: 5px;
-
-    display: flex;
-    justify-content: center;
-}
-
-input[type="search"]::placeholder {
-    color: black;
-}
-
 /* -------------------- SKILLS -------------------- */
-select{
-    appearance: none;
-    outline: none;
-    margin-top: 1rem;
+.select-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
-.classic {
-    background-image:
-        linear-gradient(45deg, transparent 50%, #FEE10B 50%),
-        linear-gradient(135deg, #FEE10B 50%, transparent 50%);
-    background-position:
-        calc(100% - 20px) calc(1em + 2px),
-        calc(100% - 10px) calc(1em + 2px),
-        calc(100% - 2.5em) 0.5em;
-    background-size:
-        10px 10px,
-        10px 10px,
-        1px 1.5em;
+.select-box .options-container {
+    background: #292828;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    overflow: hidden;
+    order: 1;
+}
+
+.select-box .options-container.active {
+    max-height: 250px;
+    opacity: 1;
+    overflow-y: scroll;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.select-box .options-container::-webkit-scrollbar {
+    width: 5px;
+    background: #121212;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: #6d6d6d;
+}
+
+.selected {
+    user-select: none;
+    border: none;
+    height: 3rem;
+    width: 100%;
+    padding-left: 15px;
+    background-color: #292828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.selected p {
+    opacity: 70%;
+}
+
+.selected::after {
+    content: "";
+    background: url("../img/icons/arrow-down.svg");
+    background-size: contain;
     background-repeat: no-repeat;
+    position: absolute;
+    justify-self: center;
+    height: 100%;
+    width: 30px;
+    right: 10px;
+    top: 35%;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.select-box .options-container.active+.selected::after {
+    background: url("../img/icons/arrow-up.svg");
+    background-repeat: no-repeat;
+    top: 30%;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.select-box .option,
+.selected {
+    cursor: pointer;
+}
+
+.select-box .option {
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    user-select: none;
+}
+
+.select-box .option:hover {
+    background: #2F2F2F;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option .checkbox {
+    height: auto;
+    width: auto;
+    margin-bottom: 0;
+    padding-left: 0;
+    /* DISPLAY NONE POUR FAIRE DISPARAITRE LES CHECKBOXES */
+    /* display: none; */
 }
 
 /* -------------------- STYLE MUSIQUE -------------------- */
-.grid-signup{
+.grid-signup {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -855,6 +837,111 @@ select{
     grid-area: 3 / 2 / 4 / 3;
 }
 
+/* --- CARTES --- */
+.card-body {
+    background-color: #2f2f2f;
+    flex-direction: column;
+
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 100%;
+    max-height: 18.563rem;
+}
+
+.card-desc {
+    background-color: #2F2F2F;
+    padding: 1.5rem;
+}
+
+.navbar {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute-right {
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
+.create-project {
+    height: 2.375rem;
+    width: 220px;
+    margin: 0rem;
+    font-size: 1rem;
+
+    color: white;
+    background-color: #12121200;
+    border: 2px #EACD1C solid;
+
+    position: absolute;
+    right: 19%;
+}
+
+.notif,
+.messages {
+    height: 2rem;
+}
+
+.notif {
+    position: absolute;
+    right: 15%;
+}
+
+.messages {
+    position: absolute;
+    right: 10%;
+}
+
+input[type="search"] {
+    height: 2.375rem;
+    width: 350px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+input[type="search"]::placeholder {
+    color: black;
+}
+
+/* -------------------- FEED -------------------- */
+#feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 12%;
+}
+
+.wrapper-feed {
+    width: 98%;
+    padding: 2rem;
+}
+
+.wrapper-card {
+    display: flex;
+}
+
+.wrapper-feed h3 {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+
 /* -------------------- BIENVENUE -------------------- */
 .bienvenue {
     background-color: #292828;
@@ -885,15 +972,18 @@ select{
     /* border: rebeccapurple 1px solid; */
 }
 
-.card2-svg{
+.card2-svg {
     width: 50%;
 }
+
 .bienvenue:focus {
     border-left: #FEE10B 5px solid;
     outline: none;
 }
+
 /* -------------------- RESPONSIVE -------------------- */
 @media screen and (max-width: 1350px) {
+
     /* CONNEXION */
     .title {
         font-size: 3rem;
@@ -1108,7 +1198,7 @@ select{
     }
 
     /* ---------- FEED ---------- */
-    .wrapper-card{
+    .wrapper-card {
         display: block;
     }
 }
