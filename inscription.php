@@ -136,15 +136,92 @@
             <!-- MES SKILLS -->
             <div class="tab">
                 <p>Choisis ton/tes skills:</p>
-                <select name="skill" id="" class="classic">
-                    <option value="">Choisis tes skills</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
-                    <option value="hamster">Hamster</option>
-                    <option value="parrot">Parrot</option>
-                    <option value="spider">Spider</option>
-                    <option value="goldfish">Goldfish</option>
-                </select>
+                <div class="select-box">
+                    <div class="options-container">
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-1">Skill 1</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-2">Skill 2</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-3">Skill 3</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-4">Skill 4</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-5">Skill 5</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-6">Skill 6</label>
+                        </div>
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-7">Skill 7</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-8">Skill 8</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-8">Skill 8</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-9">Skill 9</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-10">Skill 10</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-11">Skill 11</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-12">Skill 12</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-13">Skill 13</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-14">Skill 14</label>
+                        </div>
+
+                        <div class="option">
+                            <input type="checkbox" class="checkbox" id="skill-1" name="skill">
+                            <label for="skill-15">Skill 15</label>
+                        </div>
+                    </div>
+
+                    <div class="selected">
+                        <p>Guitare, batterie, MAO, ... </p>
+                    </div>
+                </div>
             </div>
 
             <!-- MON STYLE DE MUSIQUE -->
