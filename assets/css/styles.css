@@ -837,10 +837,35 @@ label a:hover {
     grid-area: 3 / 2 / 4 / 3;
 }
 
+/* -------------------- FEED -------------------- */
+#feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 12%;
+}
+
+.wrapper-feed {
+    width: 98%;
+    padding: 2rem;
+}
+
+.wrapper-card {
+    display: flex;
+}
+
+.wrapper-feed h3 {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+
 /* --- CARTES --- */
 .card-body {
     background-color: #2f2f2f;
     flex-direction: column;
+    width: 100%;
 
     margin-right: 1.5rem;
     margin-bottom: 2rem;
@@ -850,7 +875,6 @@ label a:hover {
 
 .card {
     width: 100%;
-    max-height: 18.563rem;
 }
 
 .card-desc {
@@ -918,28 +942,58 @@ input[type="search"]::placeholder {
     color: black;
 }
 
-/* -------------------- FEED -------------------- */
-#feed {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* AVATAR ICON */
+.dropbtn {
+    height: 100%;
     width: 100%;
-
-    margin-bottom: 12%;
+    border: none;
+    cursor: pointer;
 }
 
-.wrapper-feed {
-    width: 98%;
-    padding: 2rem;
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #b9a32900;
 }
 
-.wrapper-card {
-    display: flex;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 4%;
 }
 
-.wrapper-feed h3 {
-    margin-top: 4rem;
-    margin-left: 1.5rem;
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #2F2F2F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: #FEE10B;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
 /* -------------------- BIENVENUE -------------------- */

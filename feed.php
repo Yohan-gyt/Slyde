@@ -44,12 +44,23 @@
     </a>
     <nav class="navbar">
         <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search">
-        <div class="absolute-right"> 
+        <div class="absolute-right">
             <button class="create-project">Créer un projet</button>
             <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
             <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
         </div>
-
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+                <img src="assets/img/background/john.jpg" alt="avatar" class="avatar">
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#">Profil</a>
+                <a href="#">Editer le profil</a>
+                <a href="#">Paramètres</a>
+                <hr>
+                <a href="#">Déconnexion</a>
+            </div>
+        </div>
     </nav>
     <section id="feed">
         <div class="wrapper-feed">
@@ -244,6 +255,7 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="assets/js/feed.js"></script>
 </body>
 
 </html>
