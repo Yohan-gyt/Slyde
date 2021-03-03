@@ -43,16 +43,16 @@
         <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
     </a>
     <nav class="navbar">
-        <input type="search" placeholder="un projet, un artiste, un instrument ..." name="the_search">
+        <div class="search-bar">
+            <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
+        </div>
         <div class="absolute-right">
             <button class="create-project">Créer un projet</button>
             <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
             <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
         </div>
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">
-                <img src="assets/img/background/john.jpg" alt="avatar" class="avatar">
-            </button>
+            <button onclick="myFunction()" class="dropbtn"></button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="#">Profil</a>
                 <a href="#">Editer le profil</a>
@@ -254,8 +254,10 @@
             <p class="copyright-mobile"> © 2020 Slyde, tous droits réservés</p>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="assets/js/feed.js"></script>
+    
 </body>
 
 </html>
