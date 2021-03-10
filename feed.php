@@ -39,29 +39,42 @@
 </head>
 
 <body>
+    <!-- LOGO -->
     <a href="#">
         <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
     </a>
+
+    <!-- NAVBAR -->
     <nav class="navbar">
+        <!-- BAR DE RECHERCHE -->
         <div class="search-bar">
             <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
         </div>
-        <div class="absolute-right">
-            <button class="create-project">Créer un projet</button>
-            <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
-            <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
-        </div>
+
+        <!-- <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn notif"></button>
+            <div id="myDropdown" class="dropdown-content">
+    
+            </div>
+        </div> -->
+        <button class="create-project">Créer un projet</button>
+        <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
+        <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
+
+        <!-- USER ICON -->
         <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn"></button>
+            <button onclick="myFunction()" class="dropbtn avatar"></button>
             <div id="myDropdown" class="dropdown-content">
                 <a href="#">Profil</a>
                 <a href="#">Editer le profil</a>
                 <a href="#">Paramètres</a>
                 <hr>
-                <a href="#">Déconnexion</a>
+                <a href="#">Se déconnecter</a>
             </div>
         </div>
     </nav>
+
+    <!-- ------ FEED ------ -->
     <section id="feed">
         <div class="wrapper-feed">
             <!-- REPRENDRE LES PROJETS -->
@@ -257,7 +270,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script type="text/javascript" src="assets/js/feed.js"></script>
-    
+
 </body>
 
 </html>
