@@ -46,30 +46,28 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
-        <!-- BAR DE RECHERCHE -->
         <div class="search-bar">
             <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
         </div>
+        <div class="absolute-right">
+            <div class="wrapper-absolute-right">
+                <a class="create-project" href="inscription.php">Créer un projet</a>
 
-        <!-- <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn notif"></button>
-            <div id="myDropdown" class="dropdown-content">
-    
-            </div>
-        </div> -->
-        <button class="create-project">Créer un projet</button>
-        <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
-        <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
+                <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
+                <img src="../assets/img/icons/messages.svg" alt="messages" class="messages" draggable="false">
 
-        <!-- USER ICON -->
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn avatar"></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Profil</a>
-                <a href="#">Editer le profil</a>
-                <a href="#">Paramètres</a>
-                <hr>
-                <a href="#">Se déconnecter</a>
+                <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="assets/img/background/john.jpg" alt="Profil" class="dropbtn" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Profil</a>
+                        <a href="#">Editer le profil</a>
+                        <a href="#">Paramètres</a>
+                        <hr>
+                        <a href="#">Se deconnecter</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -269,7 +267,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/feed.js"></script>
+    <script type="text/javascript" src="assets/js/navbar.js"></script>
 
 </body>
 
