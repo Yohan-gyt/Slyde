@@ -40,8 +40,8 @@
 
 <body>
     <!-- LOGO -->
-    <a href="#">
-        <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
+    <a href="feed.php">
+        <img class="logo fixed" src="assets/img/logos/logo.png" alt="logo" draggable="false">
     </a>
 
     <!-- NAVBAR -->
@@ -61,7 +61,7 @@
                         <img src="assets/img/background/john.jpg" alt="Profil" class="dropbtn" draggable="false">
                     </div>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Profil</a>
+                        <a href="profil.php">Profil</a>
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
                         <hr>
