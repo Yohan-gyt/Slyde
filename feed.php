@@ -9,8 +9,8 @@
     <meta name="description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://slyde.fr/connexion.php">
-    <meta property="og:title" content="SLYDE - Connexion">
+    <meta property="og:url" content="https://slyde.fr/feed.php">
+    <meta property="og:title" content="SLYDE - Feed">
     <meta property="og:description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 

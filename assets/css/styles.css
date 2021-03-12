@@ -949,6 +949,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .profile {
     overflow: hidden;
     cursor: pointer;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1100,6 +1101,77 @@ input[type="search"]::-webkit-search-cancel-button {
 .bienvenue:focus {
     border-left: #FEE10B 5px solid;
     outline: none;
+}
+
+/* -------------------- USER PROFILE -------------------- */
+
+.profile-header {
+    position: relative;
+    height: 40vh;
+    min-height: 250px;
+    max-height: 350px;
+}
+
+.profile-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+}
+
+.profile-menu {
+    position: absolute;
+    bottom: 0;
+    padding-left: 1rem;
+    background: #292828;
+    height: 6vh;
+    width: 100%;
+
+    display: flex;
+    border-radius: 0 0 4px 4px;
+}
+
+.profile-menu-link {
+    font-family: Inter, sans-serif;
+    padding: 20px 16px;
+    color: #fff;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.profile-menu-link.active,
+.profile-menu-link:hover {
+    border-bottom: 2px solid #FEE10B;
+}
+
+.profile-avatar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    bottom: 5rem;
+    left: 5rem;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #292828;
+}
+
+.profile-name {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
 }
 
 /* -------------------- RESPONSIVE -------------------- */

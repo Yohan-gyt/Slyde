@@ -9,14 +9,14 @@
     <meta name="description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://slyde.fr/connexion.php">
-    <meta property="og:title" content="SLYDE - Connexion">
+    <meta property="og:url" content="https://slyde.fr/profil.php">
+    <meta property="og:title" content="SLYDE - Profil">
     <meta property="og:description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://slyde.fr/feed.php">
-    <meta property="twitter:title" content="SLYDE - Feed">
+    <meta property="twitter:url" content="https://slyde.fr/profil.php">
+    <meta property="twitter:title" content="SLYDE - Profil">
     <meta property="twitter:description"
         content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="twitter:image" content="https://www.slyde.fr/assets/card/card.jpg">
@@ -49,6 +49,7 @@
         <div class="search-bar">
             <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
         </div>
+
         <div class="absolute-right">
             <div class="wrapper-absolute-right">
                 <a class="create-project" href="inscription.php">Créer un projet</a>
@@ -74,8 +75,20 @@
 
     <!-- WRAPPER -->
     <div class="wrapper-feed">
-        <div>
-        <img src="assets/img/background/" alt="">
+        <div class="profile-header">
+            <div class="profile-avatar">
+                <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt=""
+                    class="profile-img">
+                <!-- <div class="profile-name">Prénom Nom</div> -->
+            </div>
+            <img src="https://source.unsplash.com/44OGRilO66Y/1600x900"
+                alt="" class="profile-cover">
+
+            <div class="profile-menu">
+                <a class="profile-menu-link active">PROJETS EN COURS</a>
+                <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
+                <!-- <div class="profile-name">Prénom Nom</div> -->
+            </div>
         </div>
         <div class="wrapper-card">
             <a href="projet.html">
