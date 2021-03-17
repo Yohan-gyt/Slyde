@@ -123,13 +123,3 @@ const optionList = document.querySelector(".option");
 selected.addEventListener("click", () => {
   optionsContainer.classList.toggle("active");
 });
-
-
-// CODE POUR METTRE LES TAGS SUR LA BARRE DÉROULANTE MAIS ÇA MARQUE QU'AVEC DES BALISES RADIO MAIS NOUS ON DOIT LAISSER PLUSIEURS CHOIX DONC C'EST PLUS GALÈRE
-
-// optionsList.array.forEach(o => {
-//   o.addEventListener("click", () => {
-//     selected.innerHTML = o.querySelector("label").innerHTML;
-//     optionsContainer.classList.remove("active");
-//   });
-// });
