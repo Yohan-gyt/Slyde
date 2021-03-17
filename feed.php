@@ -9,8 +9,8 @@
     <meta name="description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://slyde.fr/connexion.php">
-    <meta property="og:title" content="SLYDE - Connexion">
+    <meta property="og:url" content="https://slyde.fr/feed.php">
+    <meta property="og:title" content="SLYDE - Feed">
     <meta property="og:description" content="Bienvenue sur Slyde, la première plateforme de collaboration musicale !">
     <meta property="og:image" content="https://www.slyde.fr/assets/img/card/card.jpg">
 
@@ -39,29 +39,40 @@
 </head>
 
 <body>
-    <a href="#">
-        <img class="logo fixed" src="assets/img/logos/logo.png" alt="" draggable="false">
+    <!-- LOGO -->
+    <a href="feed.php">
+        <img class="logo fixed" src="assets/img/logos/logo.png" alt="logo" draggable="false">
     </a>
+
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="search-bar">
             <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
         </div>
         <div class="absolute-right">
-            <button class="create-project">Créer un projet</button>
-            <img src="../assets/img/icons/notif.svg" alt="notif" class="notif">
-            <img src="../assets/img/icons/messages.svg" alt="messages" class="messages">
-        </div>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn"></button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">Profil</a>
-                <a href="#">Editer le profil</a>
-                <a href="#">Paramètres</a>
-                <hr>
-                <a href="#">Déconnexion</a>
+            <div class="wrapper-absolute-right">
+                <a class="create-project" href="inscription.php">Créer un projet</a>
+
+                <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
+                <img src="../assets/img/icons/messages.svg" alt="messages" class="messages" draggable="false">
+
+                <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="assets/img/background/john.jpg" alt="Profil" class="dropbtn" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="profil.php">Profil</a>
+                        <a href="#">Editer le profil</a>
+                        <a href="#">Paramètres</a>
+                        <hr>
+                        <a href="#">Se deconnecter</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
+
+    <!-- ------ FEED ------ -->
     <section id="feed">
         <div class="wrapper-feed">
             <!-- REPRENDRE LES PROJETS -->
@@ -256,8 +267,8 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/feed.js"></script>
-    
+    <script type="text/javascript" src="assets/js/navbar.js"></script>
+
 </body>
 
 </html>
