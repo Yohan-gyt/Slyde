@@ -967,10 +967,10 @@ input[type="search"]::-webkit-search-cancel-button {
     user-select: none;
     margin-right: 2rem;
 }
-
+/* 
 .notif {
     margin-left: 2rem;
-}
+} */
 
 /* NAVBAR ICON */
 .profile {
@@ -1078,6 +1078,7 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: #2f2f2f;
     flex-direction: column;
     width: 100%;
+    border-radius: 5px;
 
     margin-right: 1.5rem;
     margin-bottom: 2rem;
@@ -1086,10 +1087,13 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .card {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     width: 100%;
 }
 
 .card-desc {
+    border-radius: 5px;
     background-color: #2F2F2F;
     padding: 1.5rem;
 }
@@ -1163,33 +1167,31 @@ input[type="search"]::-webkit-search-cancel-button {
     bottom: 0;
     padding-left: 1rem;
     background: #292828;
-    height: 6vh;
+    height: 15vh;
     width: 100%;
 
     display: flex;
+    align-items: flex-end;
     border-radius: 0 0 4px 4px;
 }
 
 .profile-menu-link {
+    position: relative;
     font-family: Inter, sans-serif;
     padding: 20px 16px;
     color: #fff;
     cursor: pointer;
+    bottom: 0;
+}
+
+.profile-links {
+    position: absolute;
+    padding: 20px 16px;
 }
 
 .profile-menu-link.active,
 .profile-menu-link:hover {
     border-bottom: 3px solid #FEE10B;
-}
-
-.profile-avatar {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-    bottom: 5rem;
-    left: 5rem;
 }
 
 .profile-img {
@@ -1198,14 +1200,25 @@ input[type="search"]::-webkit-search-cancel-button {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #292828;
+    
+    margin-right: 2rem;
+    margin-left: 4rem;
+    transform: translateY(-50%);
+    float: left;
+
 }
 
 .profile-name {
-    margin-left: 24px;
-    margin-bottom: 24px;
+    /* margin-left: 24px;
+    margin-bottom: 24px; */
     font-size: 22px;
     color: #fff;
     font-weight: 600;
+}
+
+.infos {
+    width: 50%;
+    height: 100%;
 }
 
 /* -------------------- PROJET -------------------- */

@@ -75,22 +75,24 @@
                 </div>
 
                 <div class="dropdown">
-                    <div onclick="myFunction2()" class="profile">
+                    <div onclick="myFunction()" class="profile">
                         <img src="../assets/img/icons/messages.svg" alt="Profil" class="dropbtn messages"
                             draggable="false">
                     </div>
-                    <div id="myDropdown2" class="dropdown-content">
+                    <div id="myDropdown" class="dropdown-content">
                         <a href="#">Profil</a>
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
+                        <hr>
+                        <a href="#">Se deconnecter</a>
                     </div>
                 </div>
 
                 <div class="dropdown">
-                    <div onclick="myFunction3()" class="profile">
+                    <div onclick="myFunction()" class="profile">
                         <img src="assets/img/background/john.jpg" alt="Profil" class="dropbtn" draggable="false">
                     </div>
-                    <div id="myDropdown3" class="dropdown-content">
+                    <div id="myDropdown" class="dropdown-content">
                         <a href="#">Profil</a>
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
@@ -111,7 +113,9 @@
 
             <div class="profile-menu">
                 <div class="infos">
+                    <!-- <div class="profile-avatar"> -->
                         <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt="" class="profile-img">
+                    <!-- </div> -->
                     <h2 class="profile-name">Kimy Dos Santos</h2>
                 </div>
                 <div class="profile-links">
