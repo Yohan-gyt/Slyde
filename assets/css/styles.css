@@ -1146,9 +1146,9 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .profile-header {
     position: relative;
-    height: 40vh;
+    height: 50vh;
     min-height: 250px;
-    max-height: 350px;
+    /* max-height: 350px; */
 }
 
 .profile-cover {
@@ -1166,8 +1166,9 @@ input[type="search"]::-webkit-search-cancel-button {
     position: absolute;
     bottom: 0;
     padding-left: 1rem;
+    padding-top: 2rem;
     background: #292828;
-    height: 15vh;
+    height: 50%;
     width: 100%;
 
     display: flex;
@@ -1200,7 +1201,7 @@ input[type="search"]::-webkit-search-cancel-button {
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #292828;
-    
+
     margin-right: 2rem;
     margin-left: 4rem;
     transform: translateY(-50%);
@@ -1209,8 +1210,6 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .profile-name {
-    /* margin-left: 24px;
-    margin-bottom: 24px; */
     font-size: 22px;
     color: #fff;
     font-weight: 600;
@@ -1219,6 +1218,24 @@ input[type="search"]::-webkit-search-cancel-button {
 .infos {
     width: 50%;
     height: 100%;
+}
+
+.skill,
+.skill2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.skill {
+    margin-right: 1rem;
+}
+
+.skill2 {
+    margin-left: 1rem;
+}
+
+.username{
+    margin-bottom: 1rem;
 }
 
 /* -------------------- PROJET -------------------- */

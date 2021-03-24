@@ -111,14 +111,24 @@
 
             <div class="profile-menu">
                 <div class="infos">
-                        <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt="" class="profile-img">
+                    <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt="" class="profile-img">
                     <h2 class="profile-name">Kimy Dos Santos</h2>
+
+                    <p class="username">@KimyDos</p>
+
+                    <div class="state-wrapper">
+                        <div class="skill">Guitariste</div>
+                        <div class="dot">·</div>
+                        <div class="skill2">Compositeur</div>
+                    </div>
+                    <div class="">Paris, France</div>
+
                 </div>
                 <div class="profile-links">
                     <a class="profile-menu-link active">PROJETS EN COURS</a>
-                <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
+                    <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
                 </div>
-                
+
             </div>
         </div>
 
