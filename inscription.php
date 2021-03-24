@@ -37,7 +37,7 @@
 </head>
 
 <body>
-    <form id="regForm" action="">
+    <form id="regForm" action="src/inscription.php" method="POST">
         <!-- TITRE DE GAUCHE -->
         <section id="bg-left">
             <h1 class="title" id="t1">MES INFORMATIONS <br> PERSONNELLES</h1>
