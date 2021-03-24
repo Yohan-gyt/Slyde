@@ -105,22 +105,15 @@
                 </div>
                 <div class="form-signup">
                     <div class="separate-name">
-                        <input type="text" name="lastname" placeholder="Nom*" value="wfwef@greg.fr"
-                            oninput="this.className = ''" required>
-                        <input type="text" name="name" placeholder="Prénom*" value="wfwef@greg.fr"
-                            oninput="this.className = ''" required>
+                        <input type="text" name="lastname" placeholder="Nom*" oninput="this.className = ''" required>
+                        <input type="text" name="name" placeholder="Prénom*" oninput="this.className = ''" required>
                     </div>
-                    <input type="text" name="username" placeholder="Nom d'utilisateur*" value="wfwef@greg.fr"
-                        oninput="this.className = ''" required>
-                    <input type="email" name="email" placeholder="Email*" value="wfwef@greg.fr"
-                        oninput="this.className = ''" required>
-                    <input type="text" name="location" placeholder="Ville, région" value="wfwef@greg.fr"
-                        oninput="this.className = ''">
+                    <input type="text" name="username" placeholder="Nom d'utilisateur*" oninput="this.className = ''" required>
+                    <input type="email" name="email" placeholder="Email*" oninput="this.className = ''" required>
+                    <input type="text" name="location" placeholder="Ville, région" oninput="this.className = ''">
                     <div class="separate-pwd">
-                        <input type="password" name="pwd" placeholder="Mot de passe*" value="wfwef@greg.fr"
-                            oninput="this.className = ''" required>
-                        <input type="password" name="pwd" placeholder="Confirmer le mot de passe*" value="wfwef@greg.fr"
-                            oninput="this.className = ''" required>
+                        <input type="password" name="pwd" placeholder="Mot de passe*" oninput="this.className = ''" required>
+                        <input type="password" name="confirm_pwd" placeholder="Confirmer le mot de passe*" oninput="this.className = ''" required>
                     </div>
                 </div>
             </div>
@@ -131,7 +124,7 @@
                 <div class="select-box">
                     <div class="options-container">
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-1" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-1" name="skill[]" value="skill1">
                             <label for="skill-1" class="option-label">
                                 <div>
                                     Skill 1
@@ -140,7 +133,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-2" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-2" name="skill[]" value="skill2">
                             <label for="skill-2" class="option-label">
                                 <div>
                                     Skill 2
@@ -149,7 +142,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-3" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-3" name="skill[]" value="skill3">
                             <label for="skill-3" class="option-label">
                                 <div>
                                     Skill 3
@@ -158,7 +151,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-4" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-4" name="skill[]" value="skill4">
                             <label for="skill-4" class="option-label">
                                 <div>
                                     Skill 4
@@ -167,7 +160,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-5" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-5" name="skill[]" value="skill5">
                             <label for="skill-5" class="option-label">
                                 <div>
                                     Skill 5
@@ -176,7 +169,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-6" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-6" name="skill[]" value="skill6">
                             <label for="skill-6" class="option-label">
                                 <div>
                                     Skill 6
@@ -185,7 +178,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-7" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-7" name="skill[]" value="skill7">
                             <label for="skill-7" class="option-label">
                                 <div>
                                     Skill 7
@@ -194,7 +187,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-8" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-8" name="skill[]" value="skill8">
                             <label for="skill-8" class="option-label">
                                 <div>
                                     Skill 8
@@ -203,7 +196,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-9" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-9" name="skill[]" value="skill9">
                             <label for="skill-9" class="option-label">
                                 <div>
                                     Skill 9
@@ -212,7 +205,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-10" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-10" name="skill[]" value="skill10">
                             <label for="skill-10" class="option-label">
                                 <div>
                                     Skill 10
@@ -221,7 +214,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-11" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-11" name="skill[]" value="skill11">
                             <label for="skill-11" class="option-label">
                                 <div>
                                     Skill 11
@@ -230,7 +223,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-12" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-12" name="skill[]" value="skill12">
                             <label for="skill-12" class="option-label">
                                 <div>
                                     Skill 12
@@ -239,7 +232,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-13" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-13" name="skill[]" value="skill13">
                             <label for="skill-13" class="option-label">
                                 <div>
                                     Skill 13
@@ -248,7 +241,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-14" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-14" name="skill[]" value="skill14">
                             <label for="skill-14" class="option-label">
                                 <div>
                                     Skill 14
@@ -257,7 +250,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-15" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-15" name="skill[]" value="skill15">
                             <label for="skill-15" class="option-label">
                                 <div>
                                     Skill 15
@@ -266,7 +259,7 @@
                         </div>
 
                         <div class="option">
-                            <input type="checkbox" class="checkbox-invisible" id="skill-16" name="skill">
+                            <input type="checkbox" class="checkbox-invisible" id="skill-16" name="skill[]" value="skill16">
                             <label for="skill-16" class="option-label">
                                 <div>
                                     Skill 16
@@ -288,7 +281,7 @@
                 <div class="grid-signup">
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-1" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-1" name="cat[]" value="rock">
                         <label for="cat-1" class="cat-label">
                             <div class="div1">
                                 <h3>Rock</h3>
@@ -297,7 +290,7 @@
                     </div>
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-2" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-2" name="cat[]" value="classique">
                         <label for="cat-2" class="cat-label">
                             <div class="div2">
                                 <h3>Classique</h3>
@@ -306,7 +299,7 @@
                     </div>
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-3" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-3" name="cat[]" value="hiphop">
                         <label for="cat-3" class="cat-label">
                             <div class="div3">
                                 <h3>Hip-Hop</h3>
@@ -315,7 +308,7 @@
                     </div>
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-4" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-4" name="cat[]" value="jazz">
                         <label for="cat-4" class="cat-label">
                             <div class="div4">
                                 <h3>Jazz</h3>
@@ -324,7 +317,7 @@
                     </div>
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-5" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-5" name="cat[]" value="techno">
                         <label for="cat-5" class="cat-label">
                             <div class="div5">
                                 <h3>Techno</h3>
@@ -333,7 +326,7 @@
                     </div>
 
                     <div class="cat">
-                        <input type="checkbox" class="checkbox-invisible" id="cat-6" name="cat">
+                        <input type="checkbox" class="checkbox-invisible" id="cat-6" name="cat[]" value="pop">
                         <label for="cat-6" class="cat-label">
                             <div class="div6">
                                 <h3>Pop</h3>
