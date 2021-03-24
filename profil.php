@@ -54,8 +54,48 @@
             <div class="wrapper-absolute-right">
                 <a class="create-project" href="inscription.php">Créer un projet</a>
 
-                <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
-                <img src="../assets/img/icons/messages.svg" alt="messages" class="messages" draggable="false">
+                <!-- <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Notifications</a>
+                        <a href="#">Notifications</a>
+                        <a href="#">Notifications</a>
+                    </div>
+                </div> -->
+
+                <!-- <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="../assets/img/icons/messages.svg" alt="messages" class="messages" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Notifications</a>
+                        <a href="#">Notifications</a>
+                        <a href="#">Notifications</a>
+                    </div>
+                </div> -->
+                <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="../assets/img/icons/notif.svg" alt="Profil" class="dropbtn notif" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Profil</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div onclick="myFunction()" class="profile">
+                        <img src="../assets/img/icons/messages.svg" alt="Profil" class="dropbtn messages" draggable="false">
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Profil</a>
+                        <a href="#">Editer le profil</a>
+                        <a href="#">Paramètres</a>
+                        <hr>
+                        <a href="#">Se deconnecter</a>
+                    </div>
+                </div>
 
                 <div class="dropdown">
                     <div onclick="myFunction()" class="profile">
@@ -79,7 +119,6 @@
             <div class="profile-avatar">
                 <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt=""
                     class="profile-img">
-                <!-- <div class="profile-name">Prénom Nom</div> -->
             </div>
             <img src="https://source.unsplash.com/44OGRilO66Y/1600x900"
                 alt="" class="profile-cover">
@@ -87,7 +126,6 @@
             <div class="profile-menu">
                 <a class="profile-menu-link active">PROJETS EN COURS</a>
                 <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
-                <!-- <div class="profile-name">Prénom Nom</div> -->
             </div>
         </div>
         <div class="wrapper-card">
