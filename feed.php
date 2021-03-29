@@ -79,7 +79,7 @@
             <h3>Reprendre mes projets</h3>
 
             <div class="wrapper-card">
-                <a href="projet.html">
+                <a href="projet.php">
                     <div class="card-body">
                         <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                         <div class="card-desc">
