@@ -481,6 +481,9 @@
         audio.onpause = function () {
             isPlaying = false;
         };
+
+        var monElementAudio = document.getElementById('audio');
+        monElementAudio.volume = 0.3;
     </script>
 </body>
 
