@@ -49,49 +49,19 @@
         <div class="search-bar">
             <input type="search" placeholder="Un projet, un artiste, un instrument ..." name="the_search">
         </div>
-
         <div class="absolute-right">
             <div class="wrapper-absolute-right">
                 <a class="create-project" href="inscription.php">Créer un projet</a>
 
-                <!-- <div class="dropdown">
-                    <div onclick="myFunction()" class="profile">
-                        <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
-                    </div>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Notifications</a>
-                        <a href="#">Notifications</a>
-                        <a href="#">Notifications</a>
-                    </div>
-                </div> -->
+                <img src="../assets/img/icons/notif.svg" alt="notif" class="notif" draggable="false">
+                <img src="../assets/img/icons/messages.svg" alt="messages" class="messages" draggable="false">
 
                 <div class="dropdown">
                     <div onclick="myFunction()" class="profile">
-                        <img src="../assets/img/icons/notif.svg" alt="Profil" class="dropbtn notif" draggable="false">
-                    </div>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Profil</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <div onclick="myFunction2()" class="profile">
-                        <img src="../assets/img/icons/messages.svg" alt="Profil" class="dropbtn messages"
-                            draggable="false">
-                    </div>
-                    <div id="myDropdown2" class="dropdown-content">
-                        <a href="#">Profil</a>
-                        <a href="#">Editer le profil</a>
-                        <a href="#">Paramètres</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <div onclick="myFunction3()" class="profile">
                         <img src="assets/img/background/john.jpg" alt="Profil" class="dropbtn" draggable="false">
                     </div>
-                    <div id="myDropdown3" class="dropdown-content">
-                        <a href="#">Profil</a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="profil.php">Profil</a>
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
                         <hr>
@@ -102,110 +72,107 @@
         </div>
     </nav>
 
-    <!-- WRAPPER -->
+    <!-- WRAPPER MENU -->
     <div class="wrapper-feed">
         <div class="profile-header">
-
 
             <img src="https://source.unsplash.com/44OGRilO66Y/1600x900" alt="" class="profile-cover">
 
             <div class="profile-menu">
                 <div class="infos">
-                    <img src="https://source.unsplash.com/COgbRUTvL-s/900x900" alt="" class="profile-img">
-                    <h2 class="profile-name">Kimy Dos Santos</h2>
+                    <!-- PHOTO DE PROFIL -->
+                    <img src="assets/img/background/john.jpg" alt="" class="profile-img">
 
-                    <p class="username">@KimyDos</p>
+                    <!-- INFORMATIONS SUR L'UTILISATEUR -->
+                    <div class="profile-info">
+                        <h2 class="profile-name">John Doe</h2>
+                        <p class="username">@JohnDoe</p>
 
-                    <div class="state-wrapper">
-                        <div class="skill">Guitariste</div>
-                        <div class="dot">·</div>
-                        <div class="skill2">Compositeur</div>
+                        <div class="state-wrapper">
+                            <div class="skill">Guitariste</div>
+                            <div class="dot">·</div>
+                            <div class="skill2">Compositeur</div>
+                        </div>
+                        <div class="localization">Paris, France</div>
                     </div>
-                    <div class="">Paris, France</div>
+                    <div class="profile-btns">
 
+                        <div class="btns">
+                            <div class="suivre">
+                                Suivre
+                            </div>
+                            <div class="discuter">
+                                Discuter
+                            </div>
+                            <div class="discuter">
+                                Partager
+                            </div>
+                            <div class="more">
+                                ...
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="profile-links">
                     <a class="profile-menu-link active">PROJETS EN COURS</a>
                     <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
                 </div>
-
             </div>
         </div>
 
-        <!-- Projets -->
+        <!-- PROJETS -->
         <div class="wrapper-card">
-            <a href="projet.html">
+            <a href="projet.php">
                 <div class="card-body">
                     <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
                     <div class="card-desc">
                         <h4><span class="yellow">Pop & RnB</span></h4>
                         <h4 class="card-title">Nom du projet</h4>
                         <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Complet</a>
+                        <div class="state-wrapper">
+                            <div class="skill">Guitariste</div>
+                            <div class="dot">·</div>
+                            <div class="skill2">Compositeur</div>
+                        </div>
                     </div>
                 </div>
-            </a>
-
-            <a href="##">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Hip-Hop</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Complet</a>
-                    </div>
-                </div>
-            </a>
-
-            <a href="##">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <a href="#" class="btn btn-primary">Complet</a>
-                    </div>
-                </div>
-            </a>
         </div>
-    </div>
 
-    <footer>
-        <div class="container-footer">
-            <div class="wrapper-left-footer">
-                <img src="assets/img/logos/logo-large.png" alt="" class="logo-2" draggable="false">
-                <p class="slogan-3">Créer, collaborer, partager.</p>
-                <div class="icons-footer">
-                    <a href="https://www.instagram.com/slyde.fr/" target="_blank" class="insta">
-                        <img class="link-icon" src="assets/img/icons/instagram.svg" alt="instagram" draggable="false">
-                    </a>
-                    <a href="https://www.linkedin.com/company/slydefr/" target="_blank" class="linkedin">
-                        <img class="link-icon" src="assets/img/icons/linkedin.svg" alt="linkedin" draggable="false">
-                    </a>
+        <footer>
+            <div class="container-footer">
+                <div class="wrapper-left-footer">
+                    <img src="assets/img/logos/logo-large.png" alt="" class="logo-2" draggable="false">
+                    <p class="slogan-3">Créer, collaborer, partager.</p>
+                    <div class="icons-footer">
+                        <a href="https://www.instagram.com/slyde.fr/" target="_blank" class="insta">
+                            <img class="link-icon" src="assets/img/icons/instagram.svg" alt="instagram"
+                                draggable="false">
+                        </a>
+                        <a href="https://www.linkedin.com/company/slydefr/" target="_blank" class="linkedin">
+                            <img class="link-icon" src="assets/img/icons/linkedin.svg" alt="linkedin" draggable="false">
+                        </a>
+                    </div>
+                </div>
+                <div class="wrapper-right-footer">
+                    <div class="contact">
+                        <p>Nous contacter</p>
+                        <a href="mailto:contact@slyde.fr">contact@slyde.fr</a>
+                    </div>
                 </div>
             </div>
-            <div class="wrapper-right-footer">
-                <div class="contact">
-                    <p>Nous contacter</p>
-                    <a href="mailto:contact@slyde.fr">contact@slyde.fr</a>
-                </div>
+
+            <div class="separator"></div>
+
+            <p class="copyright"> © 2020 Slyde, tous droits réservés</p>
+            <div class="wrapper-logo">
+                <img class="logo-footer" src="assets/img/logos/logo.png" alt="" draggable="false">
+                <p>Paris, France</p>
+                <p class="copyright-mobile"> © 2020 Slyde, tous droits réservés</p>
             </div>
-        </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <div class="separator"></div>
-
-        <p class="copyright"> © 2020 Slyde, tous droits réservés</p>
-        <div class="wrapper-logo">
-            <img class="logo-footer" src="assets/img/logos/logo.png" alt="" draggable="false">
-            <p>Paris, France</p>
-            <p class="copyright-mobile"> © 2020 Slyde, tous droits réservés</p>
-        </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <script type="text/javascript" src="assets/js/navbar.js"></script>
+        <script type="text/javascript" src="assets/js/navbar.js"></script>
 
 </body>
 

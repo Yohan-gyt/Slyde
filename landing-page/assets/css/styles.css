@@ -49,7 +49,7 @@ a:hover {
 
 /* SECTION 1 */
 #s1 {
-    background-image: url(../img/background/landing-page.png);
+    background-image: url(../../../assets/img/background/landing-page.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -127,7 +127,7 @@ a:hover {
 
 /* SECTION 2, 3 & 4*/
 #s2 {
-    background-image: url(../img/background/create.png);
+    background-image: url(../../../assets/img/background/create.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
@@ -135,14 +135,14 @@ a:hover {
 }
 
 #s3 {
-    background-image: url(../img/background/collabore.png);
+    background-image: url(../../../assets/img/background/collabore.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
 
 #s4 {
-    background-image: url(../img/background/paperplane.png);
+    background-image: url(../../../assets/img/background/paperplane.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
@@ -413,7 +413,7 @@ footer {
 
     /* SECTION 1 */
     #s1 {
-        background-image: url("../img/background/landing-page-mobile.png");
+        background-image: url("../../../assets/img/background/landing-page-mobile.png");
         background-position: bottom;
     }
 
@@ -441,17 +441,17 @@ footer {
 
     /* SECTION 2,3 &4 */
     #s2 {
-        background-image: url(../img/background/create-mobile.png);
+        background-image: url(../../../assets/img/background/create-mobile.png);
         background-position: center;
     }
 
     #s3 {
-        background-image: url(../img/background/collabore-mobile.png);
+        background-image: url(../../../assets/img/background/collabore-mobile.png);
         background-position: center;
     }
 
     #s4 {
-        background-image: url(../img/background/paperplane-mobile.png);
+        background-image: url(../../../assets/img/background/paperplane-mobile.png);
         background-position: center;
     }
 
