@@ -136,44 +136,50 @@
                         </div>
                     </div>
                 </div>
+            </a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-footer">
+            <div class="wrapper-left-footer">
+                <img src="assets/img/logos/logo-large.png" alt="" class="logo-2" draggable="false">
+                <p class="slogan-3">Créer, collaborer, partager.</p>
+                <div class="icons-footer">
+                    <a href="https://www.instagram.com/slyde.fr/" target="_blank" class="insta">
+                        <img class="link-icon" src="assets/img/icons/instagram.svg" alt="instagram" draggable="false">
+                    </a>
+                    <a href="https://www.linkedin.com/company/slydefr/" target="_blank" class="linkedin">
+                        <img class="link-icon" src="assets/img/icons/linkedin.svg" alt="linkedin" draggable="false">
+                    </a>
+                </div>
+            </div>
+            <div class="wrapper-right-footer">
+                <div class="info">
+                    <p>Nous contacter</p>
+                    <a href="mailto:contact@slyde.fr">contact@slyde.fr</a>
+                    <a href="cgu.php">
+                        <p class="cgu">Conditions générales d'utilisation</p>
+                    </a>
+                    <a href="confidentialité.php">
+                        <p>Confidentialité</p>
+                    </a>
+                </div>
+            </div>
         </div>
 
-        <footer>
-            <div class="container-footer">
-                <div class="wrapper-left-footer">
-                    <img src="assets/img/logos/logo-large.png" alt="" class="logo-2" draggable="false">
-                    <p class="slogan-3">Créer, collaborer, partager.</p>
-                    <div class="icons-footer">
-                        <a href="https://www.instagram.com/slyde.fr/" target="_blank" class="insta">
-                            <img class="link-icon" src="assets/img/icons/instagram.svg" alt="instagram"
-                                draggable="false">
-                        </a>
-                        <a href="https://www.linkedin.com/company/slydefr/" target="_blank" class="linkedin">
-                            <img class="link-icon" src="assets/img/icons/linkedin.svg" alt="linkedin" draggable="false">
-                        </a>
-                    </div>
-                </div>
-                <div class="wrapper-right-footer">
-                    <div class="contact">
-                        <p>Nous contacter</p>
-                        <a href="mailto:contact@slyde.fr">contact@slyde.fr</a>
-                    </div>
-                </div>
-            </div>
+        <div class="separator"></div>
 
-            <div class="separator"></div>
+        <p class="copyright"> © 2020 Slyde, tous droits réservés</p>
+        <div class="wrapper-logo">
+            <img class="logo-footer" src="assets/img/logos/logo.png" alt="" draggable="false">
+            <p>Paris, France</p>
+            <p class="copyright-mobile"> © 2020 Slyde, tous droits réservés</p>
+        </div>
+    </footer>
 
-            <p class="copyright"> © 2020 Slyde, tous droits réservés</p>
-            <div class="wrapper-logo">
-                <img class="logo-footer" src="assets/img/logos/logo.png" alt="" draggable="false">
-                <p>Paris, France</p>
-                <p class="copyright-mobile"> © 2020 Slyde, tous droits réservés</p>
-            </div>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-        <script type="text/javascript" src="assets/js/navbar.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/navbar.js"></script>
 </body>
 
 </html>
