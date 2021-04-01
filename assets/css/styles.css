@@ -325,7 +325,6 @@ footer {
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
-    text-align: center;
 }
 
 .copyright {
@@ -1258,27 +1257,29 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .discuter,
 .more {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-        
-        border: 2px #fff solid;
-        color: #F5F5F5;
-        width: 27%;
-        font-family: 'Inter',
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 2px #fff solid;
+    color: #F5F5F5;
+    width: 27%;
+    font-family: 'Inter',
         sans-serif;
-        font-size: 0.9rem;
-        font-weight: 400;
-        height: 2.3rem;
-        border-radius: 5px;
-        user-select: none;
-        cursor: pointer;
-        transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-size: 0.9rem;
+    font-weight: 400;
+    height: 2.3rem;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.more{
+
+.more {
     width: 10%;
 }
+
 /* -------------------- PROJET -------------------- */
 .projet {
     margin-top: 100px;
