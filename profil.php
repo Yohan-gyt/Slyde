@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -65,7 +68,7 @@
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
                         <hr>
-                        <a href="#">Se deconnecter</a>
+                        <a href="src/logout.php">Se deconnecter</a>
                     </div>
                 </div>
             </div>
@@ -85,15 +88,15 @@
 
                     <!-- INFORMATIONS SUR L'UTILISATEUR -->
                     <div class="profile-info">
-                        <h2 class="profile-name">John Doe</h2>
-                        <p class="username">@JohnDoe</p>
+                        <h2 class="profile-name"><?= $_SESSION["name"]?></h2>
+                        <p class="username">@<?= $_SESSION["username"]?></p>
 
                         <div class="state-wrapper">
                             <div class="skill">Guitariste</div>
                             <div class="dot">·</div>
                             <div class="skill2">Compositeur</div>
                         </div>
-                        <div class="localization">Paris, France</div>
+                        <div class="localization"><?= $_SESSION["location"]?></div>
                     </div>
                     <div class="profile-btns">
 
@@ -114,30 +117,49 @@
                     </div>
                 </div>
                 <div class="profile-links">
-                    <a class="profile-menu-link active">PROJETS EN COURS</a>
-                    <a class="profile-menu-link">PROJETS EFFECTUÉS</a>
+                    <a class="profile-menu-link active" href="">PROJETS EN COURS</a>
+                    <a class="profile-menu-link" href="">PROJETS EFFECTUÉS</a>
                 </div>
             </div>
         </div>
 
         <!-- PROJETS -->
-        <div class="wrapper-card">
+        <div class="wrapper-card"> 
             <a href="projet.php">
-                <div class="card-body">
-                    <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                    <div class="card-desc">
-                        <h4><span class="yellow">Pop & RnB</span></h4>
-                        <h4 class="card-title">Nom du projet</h4>
-                        <p class="user">John Doe</p>
-                        <div class="state-wrapper">
-                            <div class="skill">Guitariste</div>
-                            <div class="dot">·</div>
-                            <div class="skill2">Compositeur</div>
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/img-projet.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">RnB</span></h4>
+                            <h4 class="card-title">La meilleure prod de la mort qui tue</h4>
+                            <p class="user">Gaelle Charpentier</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
                         </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+                <a href="projet.php">
+                    <div class="card-body">
+                        <img class="card" src="https://source.unsplash.com/zy4oXIo6RDY/1600x900" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Rock & Métal</span></h4>
+                            <h4 class="card-title">Groupe de métal</h4>
+                            <p class="user">Philippe Gambette</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="projet.php">
+                    <div class="card-body">
+                        <img class="card" src="https://source.unsplash.com/YQNkfeVJZjQ/1600x900" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Rock</span></h4>
+                            <h4 class="card-title">Duo de musique - guitare et chant</h4>
+                            <p class="user">Matthieu Berthet</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
+                        </div>
+                    </div>
+                </a>
+            </div>
     </div>
     
     <footer>

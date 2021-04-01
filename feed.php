@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -65,7 +68,7 @@
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
                         <hr>
-                        <a href="#">Se deconnecter</a>
+                        <a href="src/logout.php">Se deconnecter</a>
                     </div>
                 </div>
             </div>
@@ -78,39 +81,38 @@
             <!-- REPRENDRE LES PROJETS -->
             <h3>Reprendre mes projets</h3>
 
-            <div class="wrapper-card">
+            <div class="wrapper-card"> 
+            <a href="projet.php">
+                    <div class="card-body">
+                        <img class="card" src="assets/img/background/img-projet.jpg" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">RnB</span></h4>
+                            <h4 class="card-title">La meilleure prod de la mort qui tue</h4>
+                            <p class="user">Gaelle Charpentier</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
+                        </div>
+                    </div>
+                </a>
                 <a href="projet.php">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/zy4oXIo6RDY/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Rock & Métal</span></h4>
+                            <h4 class="card-title">Groupe de métal</h4>
+                            <p class="user">Philippe Gambette</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
                         </div>
                     </div>
                 </a>
 
-                <a href="##">
+                <a href="projet.php">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/YQNkfeVJZjQ/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="##">
-                    <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                        <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Rock</span></h4>
+                            <h4 class="card-title">Duo de musique - guitare et chant</h4>
+                            <p class="user">Matthieu Berthet</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
@@ -118,77 +120,77 @@
 
             <!-- NOUVEAUX PROJETS -->
             <h3>Nouveaux projets</h3>
-            <div class="wrapper-card">
-                <a href="##">
+
+            <div class="wrapper-card"> 
+            <a href="projet.php">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/aWXVxy8BSzc/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Rock & Métal</span></h4>
+                            <h4 class="card-title">Groupe de rock :)</h4>
+                            <p class="user">Leyla Jaoued</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
+                        </div>
+                    </div>
+                </a>
+                <a href="projet.php">
+                    <div class="card-body">
+                        <img class="card" src="https://source.unsplash.com/sqJ4tLBiurw/1600x900" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Hip Hop</span></h4>
+                            <h4 class="card-title">Le projet le plus cool</h4>
+                            <p class="user">Renaud Epstein</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 10 Janv 2021</a>
                         </div>
                     </div>
                 </a>
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/3hWg9QKl5k8/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="##">
-                    <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                        <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Jazz</span></h4>
+                            <h4 class="card-title">Groupe de Jazz</h4>
+                            <p class="user">Odile Niel</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
             </div>
+            
             <div class="wrapper-card">
                 <a href="projet.html">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/DQq3MIMR7oU/1600x900" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </a>
-
-
-                <a href="##">
-                    <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
-                        <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title">Trio de chanteurs amusants</h4>
+                            <p class="user">Hervé Lo</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/Zp2C1dIvc64/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Pop</span></h4>
+                            <h4 class="card-title">Composition de chanson en anglais</h4>
+                            <p class="user">Alexandre Leroy</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="##">
+                    <div class="card-body">
+                        <img class="card" src="https://source.unsplash.com/wj7osbx1aI8/1600x900" alt="">
+                        <div class="card-desc">
+                            <h4><span class="yellow">Electro</span></h4>
+                            <h4 class="card-title">Double DJ pour faire une prod</h4>
+                            <p class="user">Anne Tasso</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
@@ -197,36 +199,36 @@
             <div class="wrapper-card">
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/zbQEd3MQxwo/1600x900" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title">Objectif groupe de musique à Bordeaux</h4>
+                            <p class="user">Florian Reche</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/HPYk8X9hh34/1600x900" alt="">
                         <div class="card-desc">
                             <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4 class="card-title">Projet de groupe dans la joie et la bonne humeur</h4>
+                            <p class="user">Florence Bister</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>
 
                 <a href="##">
                     <div class="card-body">
-                        <img class="card" src="assets/img/background/pexels-pixabay.jpg" alt="">
+                        <img class="card" src="https://source.unsplash.com/96ZgYoYTBVg/1600x900" alt="">
                         <div class="card-desc">
-                            <h4><span class="yellow">Pop & RnB</span></h4>
-                            <h4 class="card-title">Nom du projet</h4>
-                            <p class="user">John Doe</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h4><span class="yellow">Rock n Roll</span></h4>
+                            <h4 class="card-title">Groupe de rock qui vise l'international</h4>
+                            <p class="user">Mister Fish</p>
+                            <a href="#" class="btn btn-primary">Incomplet · 5 Janv 2021</a>
                         </div>
                     </div>
                 </a>

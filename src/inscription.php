@@ -56,8 +56,18 @@ if (isset($_POST))
             $_SESSION['username'] = $_POST['username'];
             $_SESSION['id'] = $user->id;
 
-            header('Location: ../index.php?success=true');
-        
+            $_SESSION['name'] = $_POST['name']." ".$_POST["lastname"];
+            $_SESSION['location'] = $_POST['location'];
+
+            if(isset($_POST["finalisation"])){
+                header('Location: ../profil.php');
+                die();
+            }else{
+                if(isset($_POST["feed"])){
+                    header('Location: ../feed.php');
+                    die();
+            }}
+            
             }
     
             else

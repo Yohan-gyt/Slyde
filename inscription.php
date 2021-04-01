@@ -341,7 +341,7 @@
             <div class="tab">
 
                 <div class="fin">
-                    <input type="radio" class="checkbox-invisible" id="fin-1" name="fin">
+                    <input type="radio" class="checkbox-invisible" id="fin-1" name="finalisation">
                     <label for="fin-1" class="fin-label">
                         <div tabindex="0" class="bienvenue">
                             <h3>Finaliser mon profil</h3>
@@ -363,7 +363,7 @@
                 </div>
 
                 <div class="fin">
-                    <input type="radio" class="checkbox-invisible" id="fin-2" name="fin">
+                    <input type="radio" class="checkbox-invisible" id="fin-2" name="feed">
                     <label for="fin-2" class="fin-label">
                     <div tabindex="1" class="bienvenue">
                         <h3>Découvrir Slyde</h3>

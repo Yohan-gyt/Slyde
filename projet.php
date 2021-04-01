@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -67,7 +70,7 @@
                         <a href="#">Editer le profil</a>
                         <a href="#">Paramètres</a>
                         <hr>
-                        <a href="#">Se deconnecter</a>
+                        <a href="src/logout.php">Se deconnecter</a>
                     </div>
                 </div>
             </div>
@@ -80,8 +83,8 @@
                 <img src="assets/img/background/img-projet.jpg" alt="" draggable="false">
             </div>
             <div class="desc-projet">
-                <h1>Nom du projet</h1>
-                <p class="owner">Lancé par John Doe</p>
+                <h1>La meilleure prod de la mort qui tue</h1>
+                <p class="owner">Lancé par <?= $_SESSION["name"]?></p>
                 <div class="state-wrapper">
                     <div class="type">Hip-Hop</div>
                     <div class="state">Incomplet</div>

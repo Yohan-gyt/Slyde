@@ -77,7 +77,7 @@
             <div class="wrapper-right">
                 <h2>Connexion à mon compte Slyde</h2>
                 <hr>
-                <form action="assets/php/" method="POST" class="form-singin">
+                <form action="src/login.php" method="POST" class="form-singin">
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="password" name="password" placeholder="Mot de passe" required>
                     <a href="#" class="forgot-pwd">Mot de passe oublié ?</a>
